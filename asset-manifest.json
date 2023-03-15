@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ItsMe-Daniel/static/css/main.044affe9.css",
+    "main.js": "/ItsMe-Daniel/static/js/main.abe54e45.js",
+    "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
+    "static/media/cebutravel.png": "/ItsMe-Daniel/static/media/cebutravel.98826be734760fb1aba8.png",
+    "static/media/Me.jpg": "/ItsMe-Daniel/static/media/Me.2c32aca160878ad6cd60.jpg",
+    "static/media/Shopaholic.png": "/ItsMe-Daniel/static/media/Shopaholic.44cd7cd44024d2367f9b.png",
+    "static/media/sebastian.png": "/ItsMe-Daniel/static/media/sebastian.f7e9c7bf9b60a6c5248d.png",
+    "static/media/LMS.png": "/ItsMe-Daniel/static/media/LMS.6132a5bc42b6824dec15.png",
+    "static/media/rockps.png": "/ItsMe-Daniel/static/media/rockps.6916952bad48954e4f80.png",
+    "static/media/tonette.png": "/ItsMe-Daniel/static/media/tonette.cdddd07693adfd1387f5.png",
+    "static/media/codit.png": "/ItsMe-Daniel/static/media/codit.70cac15bb4bba1093573.png",
+    "static/media/D.png": "/ItsMe-Daniel/static/media/D.09088e603dc0414bbc68.png",
+    "index.html": "/ItsMe-Daniel/index.html",
+    "main.044affe9.css.map": "/ItsMe-Daniel/static/css/main.044affe9.css.map",
+    "main.abe54e45.js.map": "/ItsMe-Daniel/static/js/main.abe54e45.js.map",
+    "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.044affe9.css",
+    "static/js/main.abe54e45.js"
+  ]
+}
