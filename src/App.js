@@ -6,13 +6,14 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Footer from './components/Footer';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import "./css/main-style.css";
 
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
       <Navigation></Navigation>
         <Routes>
@@ -24,7 +25,7 @@ function App() {
 
       <Footer></Footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
