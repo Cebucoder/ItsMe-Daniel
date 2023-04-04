@@ -38,11 +38,18 @@ const Navigation = () => {
     }
     prevScrollpos = currentScrollPos;
     }
+    function closNav(){
+        let menuCont = document.getElementById("menu-container");
+        let menu = document.getElementById("menu-content");
+        let hidemenu = document.getElementById("menu-content");
+        hidemenu.classList.remove("menu-toggle");
+        menuCont.classList.remove("menuCont-toggle");
+    }
 
     return ( 
         <div class="navbar" id='navbar'>
             <div class="logo" title='My Logo'>
-                <img src={logo} alt="" />
+                <Link to="/"><img src={logo} alt="" /></Link>
             </div>
 
             <div class="navlink">
@@ -89,11 +96,11 @@ const Navigation = () => {
 	</div>
 	<div class="menu-content" id='menu-content'>
         <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/Work">My Project</Link></li>
-            <li><Link to="/About">About Me</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
-            <li class="active"><a href="https://drive.google.com/file/d/14Te9WiyFa6aG7rLcP0VjfyHyWJO0kpzH/view?usp=share_link"target="_blank">Resume</a></li>
+            <li onClick={closNav}><Link to="/">Home</Link></li>
+            <li onClick={closNav}><Link to="/Work">My Project</Link></li>
+            <li onClick={closNav}><Link to="/About">About Me</Link></li>
+            <li onClick={closNav}><Link to="/Contact">Contact</Link></li>
+            <li class="active" onClick={closNav}><a href="https://drive.google.com/file/d/14Te9WiyFa6aG7rLcP0VjfyHyWJO0kpzH/view?usp=share_link"target="_blank">Resume</a></li>
         </ul>
 	</div>
 

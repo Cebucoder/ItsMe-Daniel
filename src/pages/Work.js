@@ -5,6 +5,7 @@ import sebastian from '../images/sebastian.png';
 import shopaholic from '../images/Shopaholic.png';
 import tonette from '../images/tonette.png';
 import codit from '../images/codit.png';
+import abeliago from '../images/abeliago.png';
 import "../css/main-style.css";
 
 
@@ -47,8 +48,8 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
-                     <ion-icon name="logo-github"></ion-icon>
-                     <ion-icon name="code-download-outline"></ion-icon>
+                     <a href="https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://github.com/Cebucoder/Cebu-Travel" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                      </div>
                   </div>
@@ -77,8 +78,8 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
-                     <ion-icon name="logo-github"></ion-icon>
-                     <ion-icon name="code-download-outline"></ion-icon>
+                     <a href="https://cebucoder.github.io/LMS-Capstone/login-page.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://github.com/Cebucoder/LMS-Capstone/tree/master" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -108,8 +109,8 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
-                     <ion-icon name="logo-github"></ion-icon>
-                     <ion-icon name="code-download-outline"></ion-icon>
+                     <a href="https://cebucoder.github.io/rock-paper-scissors/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://github.com/Cebucoder/rock-paper-scissors/tree/master" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                      </div>
                   </div>
@@ -138,8 +139,8 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
-                     <ion-icon name="logo-github"></ion-icon>
-                     <ion-icon name="code-download-outline"></ion-icon>
+                     <a href="https://cebucoder.github.io/Sebastian/"><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://github.com/Cebucoder/Sebastian/tree/master"><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -169,8 +170,14 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
+                   
+                     <a href="https://cebucoder.github.io/Shopaholic-PH/main-final.html" target='blank'>
                      <ion-icon name="logo-github"></ion-icon>
-                     <ion-icon name="code-download-outline"></ion-icon>
+                     </a>
+                    <a href="https://github.com/Cebucoder/Shopaholic-PH" target='blank'>
+                    <ion-icon name="code-download-outline"></ion-icon>
+                    </a>
+                     
                      </span>
                      </div>
                   </div>
@@ -199,8 +206,8 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
-                     <ion-icon name="logo-github"></ion-icon>
-                     <ion-icon name="code-download-outline"></ion-icon>
+                     <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://github.com/Cebucoder/Tonette-Events" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -222,10 +229,41 @@ const Work = () => {
                      <p>
                         Code It Website is a simple website that giving information to new upcoming webdeveloper on where to learn programming and giving exact link  to a webiste and  youtuber channel where you can learn programming 
                      <br /><br />
-                     Shopahlic website was build by <span class="highlights">Html Css Javacscript and Bootstrap</span></p>
+                     Code It website was build by <span class="highlights">Html Css Javacscript and Bootstrap</span></p>
 
                      <span class="ide-use">
                         <small><a href="" class="about-line">Sublime</a></small>
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://cebucoder.github.io/codeit/Exercise12/main.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://github.com/Cebucoder/codeit/tree/main/Exercise12" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 7 */}
+
+               {/* project 8 */}
+               <div class="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={abeliago} alt="" />
+                     <div class="imgoverlay"></div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Abeliago</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                        Abeliago is a  eccommerce webiste that made by Group 10 and  currently focusing on selling and legitimate latest smartphone.
+                     <br /><br />
+                     Abeliago website was build by <span class="highlights">React Js / PHP</span></p>
+
+                     <span class="ide-use">
                         <small><a href="" class="about-line">VS Code</a></small>
                      </span>
 
@@ -236,7 +274,7 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 7 */}
+               {/* <project 8 */}
 
             </div>
 

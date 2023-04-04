@@ -1,5 +1,5 @@
 // import Particles from "react-tsparticles";
-
+import { Link } from "react-router-dom";
 const Home = () => {
     return ( 
         <div class="home-container" id="tsparticles">
@@ -46,7 +46,7 @@ const Home = () => {
 
                 <p>"I’m a web developer,I love making goods staff and I currently focused on building a good <span class="upstatement">website.</span></p>
 
-                <a href="About"><button class="explore">Explore more!</button></a>
+               <Link to="/About"><button class="explore">Explore more!</button></Link>
 
             </div>
 
