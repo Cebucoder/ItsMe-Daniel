@@ -80,7 +80,7 @@ const Navigation = () => {
                 </li>
                     
                 <li class="active">
-                    <a href="https://drive.google.com/file/d/14Te9WiyFa6aG7rLcP0VjfyHyWJO0kpzH/view?usp=share_link" target="_blank">Resume</a>
+                    <a href="https://drive.google.com/file/d/15XwD9Ohk5yQtH22cCiC1fB55pw35w2f7/view?usp=share_link" target="_blank">Resume</a>
                 </li>
                 </ul>
             </div>
