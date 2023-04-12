@@ -163,6 +163,9 @@ body{
 	transition: 0.3s;
 	transform: translateY(-3px);
 }
+.social-cont a{
+	text-decoration: none;
+}
 .social-cont .line{
 	width: 2px;
 	height: 100px;
