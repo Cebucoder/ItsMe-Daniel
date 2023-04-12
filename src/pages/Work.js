@@ -6,6 +6,7 @@ import shopaholic from '../images/Shopaholic.png';
 import tonette from '../images/tonette.png';
 import codit from '../images/codit.png';
 import abeliago from '../images/abeliago.png';
+import maxwell from '../images/maxwell.png';
 import "../css/main-style.css";
 
 
@@ -275,6 +276,37 @@ const Work = () => {
                   </div>
                </div>
                {/* <project 8 */}
+
+               {/* project 9 */}
+               <div class="myproject">
+                  <div className="ImgContainer">
+                     <img src={maxwell} alt="" />
+                     <div class="imgoverlay"></div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Maxwell</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Maxwell International School is one of the most well known schools in the Philippines. It is heavily considered as a school for the riches. In this school, male students wear white plain polos, black pants, and a Maxwell gray vest.
+                     <br /><br />
+                     Maxwell website was build by <span class="highlights">Html Css and Javascript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://cebucoder.github.io/maxwell/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://github.com/Cebucoder/maxwell" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 9 */}
 
             </div>
 
