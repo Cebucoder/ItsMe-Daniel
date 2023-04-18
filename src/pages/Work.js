@@ -34,7 +34,7 @@ const Work = () => {
                   </div>
 
                   <div className="proj-details">
-                     <small>Latest Project</small>
+                     <small>Project</small>
                      <h1>Cebu Travel</h1>
                      <div class="hiding-later">
                         {/* details */}
@@ -223,7 +223,7 @@ const Work = () => {
                   </div>
 
                   <div className="proj-details">
-                     <small>Latest Project</small>
+                     <small>Project</small>
                      <h1>Code It</h1>
                      <div class="hiding-later">
                         {/* details */}
