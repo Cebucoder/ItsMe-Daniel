@@ -7,6 +7,8 @@ import tonette from '../images/tonette.png';
 import codit from '../images/codit.png';
 import abeliago from '../images/abeliago.png';
 import maxwell from '../images/maxwell.png';
+import taskido from '../images/taskidoLog.png';
+import uxie from '../images/uxie.png';
 import "../css/main-style.css";
 
 
@@ -25,11 +27,86 @@ const Work = () => {
             {/* my project container */}
             <div class="my-projectCont">
 
+
+               {/* project 1 */}
+               <div class="myproject">
+                  <div className="ImgContainer">
+                     <img src={uxie} alt="" />
+                     <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/Todolist/index.html" target='blank'><button>Live Demo</button></a>
+                     </div> */}
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Uxie</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Uxie Wbeiste is a thesis project of one of my friend ,Uxie is is just like a portfolio but as a group porfolio
+                     <br /><br />
+                     Uxie was build by <span class="highlights">Html Css and  javacscript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href=" https://uxie-44320.web.app/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+
+               {/* project 1 */}
+               <div class="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={taskido} alt="" />
+                     <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/Todolist/index.html" target='blank'><button>Live Demo</button></a>
+                     </div> */}
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Taskido</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Taskkido is the ultimate productivity tool. It lets you effortlessly manage to-do lists, stay organized with a calendar, receive notifications, and set alarms.
+                     But Current Taskido is not totally finish .
+                     <br /><br />
+                     Taskido was build by <span class="highlights">Html Css and  javacscript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href=" https://cebucoder.github.io/Todolist/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+
                {/* project 1 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={cebuTravel} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><button>Live Demo</button></a>
+                     </div> */}
 
                   </div>
 
@@ -49,7 +126,7 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
-                     <a href="https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href=" https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
                      <a href="https://github.com/Cebucoder/Cebu-Travel" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                      </div>
@@ -62,6 +139,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={lms} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/LMS-Capstone/login-page.html" target='blank'><button>Live Demo</button></a>
+                     </div> */}
                   </div>
 
                   <div className="proj-details">
@@ -91,6 +171,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={rockps} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/rock-paper-scissors/" target='blank'><button>Live Demo</button></a>
+                     </div> */}
 
                   </div>
 
@@ -123,6 +206,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={sebastian} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/Sebastian/" target='blank'><button>Live Demo</button></a>
+                     </div> */}
                   </div>
 
                   <div className="proj-details">
@@ -152,6 +238,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={shopaholic} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/Shopaholic-PH/main-final.html" target='blank'><button>Live Demo</button></a>
+                     </div> */}
 
                   </div>
 
@@ -190,6 +279,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={tonette} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><button>Live Demo</button></a>
+                     </div> */}
                   </div>
 
                   <div className="proj-details">
@@ -219,6 +311,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={codit} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/codeit/Exercise12/main.html" target='blank'><button>Live Demo</button></a>
+                     </div> */}
 
                   </div>
 
@@ -251,6 +346,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={abeliago} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="" target='blank'><button>Live Demo</button></a>
+                     </div> */}
 
                   </div>
 
@@ -282,6 +380,9 @@ const Work = () => {
                   <div className="ImgContainer">
                      <img src={maxwell} alt="" />
                      <div class="imgoverlay"></div>
+                     {/* <div className="live-demo">
+                        <a href="https://cebucoder.github.io/maxwell/" target='blank'><button>Live Demo</button></a>
+                     </div> */}
 
                   </div>
 

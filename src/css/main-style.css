@@ -679,7 +679,45 @@ body{
 	left: 0;
 	background: #0a192f7a;
 	transition: 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+.live-demo{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: 0.5s;
+}
+.live-demo:hover{
+	opacity: 1;
+
+}
+.live-demo button{
+	width: 150px;
+	height: 50px;
+	border: 2px solid transparent;
+	color: #64ffda;
+	background: #112240;
+	border-radius: 50px;
+	/* font */
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.live-demo button:hover{
+	border: 2px solid #64ffda;
+	background: #112240a7;
+	transform: scale(1.1);
+	color: #64ffda;
+}
+
 .ImgContainer:hover .imgoverlay{
 	opacity: 0;
 }
