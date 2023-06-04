@@ -47,54 +47,54 @@ const Navigation = () => {
     }
 
     return ( 
-        <div class="navbar" id='navbar'>
+        <div className="navbar" id='navbar'>
             <div class="logo" title='My Logo'>
                 <Link to="/"><img src={logo} alt="" /></Link>
             </div>
 
-            <div class="navlink">
+            <div className="navlink">
                 <ul>
                 <li>
                     <Link to="/">Home</Link>
-                    <div class="navbox1"></div>
-                    <div class="navbox2"></div>
+                    <div className="navbox1"></div>
+                    <div className="navbox2"></div>
                     
                 </li>
                 <li>
                     <Link to="/Work">Work</Link>
-                    <div class="navbox1"></div>
-                    <div class="navbox2"></div>
+                    <div className="navbox1"></div>
+                    <div className="navbox2"></div>
                        
                 </li>
                 <li>
                     <Link to="/About">About Me</Link>
-                    <div class="navbox1"></div>
-                    <div class="navbox2"></div>
+                    <div className="navbox1"></div>
+                    <div className="navbox2"></div>
                     
                 </li>
                 <li>
                     <Link to="/Contact">Contact</Link>
-                    <div class="navbox1"></div>
-                    <div class="navbox2"></div>
+                    <div className="navbox1"></div>
+                    <div className="navbox2"></div>
                     
                 </li>
                     
-                <li class="active">
+                <li className="active">
                     <a href="https://drive.google.com/file/d/1972NtWLfNprprIJ8Mdy9n062o8gCAstA/view?usp=share_link" target="_blank">Resume</a>
                 </li>
                 </ul>
             </div>
 
-            <div class="menu" onClick={openMenu}>
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+            <div className="menu" onClick={openMenu}>
+                <div className="line1"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
 		    </div>
 
             {/* <!-- sliding menu --> */}
-	<div class="menu-container" id='menu-container'>
+	<div className="menu-container" id='menu-container'>
 	</div>
-	<div class="menu-content" id='menu-content'>
+	<div className="menu-content" id='menu-content'>
         <ul>
             <li onClick={closNav}><Link to="/">Home</Link></li>
             <li onClick={closNav}><Link to="/Work">My Project</Link></li>
