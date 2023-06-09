@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/ItsMe-Daniel/static/css/main.cebde5f6.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.7bf4dce8.js",
+    "main.css": "/ItsMe-Daniel/static/css/main.67f6bfac.css",
+    "main.js": "/ItsMe-Daniel/static/js/main.163de7fe.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
+    "static/media/glowingB.png": "/ItsMe-Daniel/static/media/glowingB.d96074e5980b4e0bbcb4.png",
     "static/media/cebutravel.png": "/ItsMe-Daniel/static/media/cebutravel.98826be734760fb1aba8.png",
     "static/media/maxwell.png": "/ItsMe-Daniel/static/media/maxwell.bd8321db983da6f4e1b4.png",
     "static/media/Me.jpg": "/ItsMe-Daniel/static/media/Me.2c32aca160878ad6cd60.jpg",
@@ -17,12 +18,12 @@
     "static/media/taskidoLog.png": "/ItsMe-Daniel/static/media/taskidoLog.a24a6525308cf14ce26b.png",
     "static/media/D.png": "/ItsMe-Daniel/static/media/D.09088e603dc0414bbc68.png",
     "index.html": "/ItsMe-Daniel/index.html",
-    "main.cebde5f6.css.map": "/ItsMe-Daniel/static/css/main.cebde5f6.css.map",
-    "main.7bf4dce8.js.map": "/ItsMe-Daniel/static/js/main.7bf4dce8.js.map",
+    "main.67f6bfac.css.map": "/ItsMe-Daniel/static/css/main.67f6bfac.css.map",
+    "main.163de7fe.js.map": "/ItsMe-Daniel/static/js/main.163de7fe.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cebde5f6.css",
-    "static/js/main.7bf4dce8.js"
+    "static/css/main.67f6bfac.css",
+    "static/js/main.163de7fe.js"
   ]
 }
