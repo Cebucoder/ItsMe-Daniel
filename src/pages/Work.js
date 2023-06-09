@@ -9,6 +9,7 @@ import abeliago from '../images/abeliago.png';
 import maxwell from '../images/maxwell.png';
 import taskido from '../images/taskidoLog.png';
 import uxie from '../images/uxie.png';
+import glowing from '../images/glowingB.png';
 import "../css/main-style.css";
 
 
@@ -27,6 +28,40 @@ const Work = () => {
             {/* my project container */}
             <div class="my-projectCont">
 
+
+               {/* project 1 */}
+               <div class="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={glowing} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                        <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a>
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Uxie</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Glowing Beauty unveils an extraordinary array of products, each one a harmonious blend of nature's wonders and innovative breakthroughs. From delicate lotions that caress the skin like a gentle breeze of transcendent beauty.
+                     <br /><br />
+                     Glowing Beauty was build by <span class="highlights">React</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href=" https://cebucoder.github.io/Glowing_Beauty/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
 
                {/* project 1 */}
                <div class="myproject">
