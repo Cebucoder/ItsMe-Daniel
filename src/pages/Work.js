@@ -42,7 +42,7 @@ const Work = () => {
 
                   <div className="proj-details">
                      <small>Latest Project</small>
-                     <h1>Uxie</h1>
+                     <h1>Glowing Beauty</h1>
                      <div class="hiding-later">
                         {/* details */}
                      <p>
