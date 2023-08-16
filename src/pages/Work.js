@@ -10,6 +10,9 @@ import maxwell from '../images/maxwell.png';
 import taskido from '../images/taskidoLog.png';
 import uxie from '../images/uxie.png';
 import glowing from '../images/glowingB.png';
+import craveSolution from '../images/CraveSolutions.png';
+import evspresso from '../images/evspresso.png'
+import creative from '../images/creative.png'
 import "../css/main-style.css";
 
 
@@ -26,7 +29,107 @@ const Work = () => {
             </div>
 
             {/* my project container */}
-            <div class="my-projectCont">
+            <div class="my-projectCont ">
+
+               {/* project 1 */}
+               <div class="myproject">
+                  <div className="ImgContainer">
+                     <img src={creative} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                        {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Creative</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Discover your "Design Thinking Superpowers". Learn how to unleash creativity, empathy, ideation, prototyping, and iteration to conquer challenges and fuel innovation. 
+                     <br /><br />
+                     Creative was build by <span class="highlights">Html Css Javascript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://templateventures.github.io/Creative/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+               {/* project 1 */}
+               <div class="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={evspresso} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                        {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Evspresso Caffee</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     With jazz melodies and the aroma of freshly brewed coffee, Evpresso's caffee was undeniable.
+                     <br /><br />
+                     Evpresso was build by <span class="highlights">Html Css Javascript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://templateventures.github.io/Evspresso/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+
+               {/* project 1 */}
+               <div class="myproject">
+                  <div className="ImgContainer">
+                     <img src={craveSolution} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                        {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Crave Solutions</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Crave Solutions is a fast food restaurant located somewhere in the Philippines. Inside the Crave Solutions website, they display a variety of their food options, and customers can also make reservations from the website.
+                     <br /><br />
+                     Crave Solutions was build by <span class="highlights">Html Css Javascript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://templateventures.github.io/CraveSolutions/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
 
 
                {/* project 1 */}
@@ -35,7 +138,7 @@ const Work = () => {
                      <img src={glowing} alt="" />
                      <div class="imgoverlay"></div>
                      <div className="live-demo">
-                        <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a>
+                        <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><button>Live Demo</button></a>
                      </div>
 
                   </div>
@@ -55,7 +158,7 @@ const Work = () => {
                      </span>
 
                      <span class="source-code-icon">
-                     <a href=" https://cebucoder.github.io/Glowing_Beauty/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
                      <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                      </div>
@@ -335,7 +438,7 @@ const Work = () => {
 
                      <span class="source-code-icon">
                      <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
-                     <a href="https://github.com/Cebucoder/Tonette-Events" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+         
                      </span>
                   </div>
                </div>
