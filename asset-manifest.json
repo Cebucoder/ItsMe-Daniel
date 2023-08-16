@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ItsMe-Daniel/static/css/main.67f6bfac.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.39780c0c.js",
+    "main.js": "/ItsMe-Daniel/static/js/main.b68b0c99.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
     "static/media/CraveSolutions.png": "/ItsMe-Daniel/static/media/CraveSolutions.6f091590619f67d17102.png",
     "static/media/glowingB.png": "/ItsMe-Daniel/static/media/glowingB.d96074e5980b4e0bbcb4.png",
@@ -13,7 +13,7 @@
     "static/media/abeliago.png": "/ItsMe-Daniel/static/media/abeliago.4a3bf87b6c3b6e40d149.png",
     "static/media/sebastian.png": "/ItsMe-Daniel/static/media/sebastian.f7e9c7bf9b60a6c5248d.png",
     "static/media/uxie.png": "/ItsMe-Daniel/static/media/uxie.cd232523651594de383c.png",
-    "static/media/creative.png": "/ItsMe-Daniel/static/media/creative.e19e3ae899749933e7e1.png",
+    "static/media/creative.png": "/ItsMe-Daniel/static/media/creative.75c386851b06031f63d2.png",
     "static/media/LMS.png": "/ItsMe-Daniel/static/media/LMS.6132a5bc42b6824dec15.png",
     "static/media/rockps.png": "/ItsMe-Daniel/static/media/rockps.6916952bad48954e4f80.png",
     "static/media/tonette.png": "/ItsMe-Daniel/static/media/tonette.cdddd07693adfd1387f5.png",
@@ -22,11 +22,11 @@
     "static/media/D.png": "/ItsMe-Daniel/static/media/D.09088e603dc0414bbc68.png",
     "index.html": "/ItsMe-Daniel/index.html",
     "main.67f6bfac.css.map": "/ItsMe-Daniel/static/css/main.67f6bfac.css.map",
-    "main.39780c0c.js.map": "/ItsMe-Daniel/static/js/main.39780c0c.js.map",
+    "main.b68b0c99.js.map": "/ItsMe-Daniel/static/js/main.b68b0c99.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67f6bfac.css",
-    "static/js/main.39780c0c.js"
+    "static/js/main.b68b0c99.js"
   ]
 }
