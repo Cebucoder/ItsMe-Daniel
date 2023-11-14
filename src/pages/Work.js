@@ -15,6 +15,7 @@ import evspresso from '../images/evspresso.png'
 import creative from '../images/creative.png'
 import shadowcrafts from '../images/shadowcrafts.png'
 import capstonemaestro from '../images/capstonemaestro.png'
+import travelers from '../images/travelers.png'
 import "../css/main-style.css";
 
 
@@ -32,6 +33,38 @@ const Work = () => {
 
             {/* my project container */}
             <div class="my-projectCont ">
+
+               {/* project 1 */}
+               <div class="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={travelers} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Travelers</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     This project is a recreation of a website originally designed by Colorlib. The primary goal is to enhance my skills in web development by rebuilding and customizing the existing design. The original design served as a valuable reference for honing my proficiency in HTML, CSS, and JavaScript.
+                     <br /><br />
+                     Capstone Maestro was build by <span class="highlights">Html Css Javascript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://cebucoder.github.io/travelers/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
 
                {/* project 1 */}
                <div class="myproject">
