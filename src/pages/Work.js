@@ -52,7 +52,7 @@ const Work = () => {
                      <p>
                      This project is a recreation of a website originally designed by Colorlib. The primary goal is to enhance my skills in web development by rebuilding and customizing the existing design. The original design served as a valuable reference for honing my proficiency in HTML, CSS, and JavaScript.
                      <br /><br />
-                     Capstone Maestro was build by <span class="highlights">Html Css Javascript</span></p>
+                     Travelers was build by <span class="highlights">Html Css Javascript</span></p>
 
                      <span class="ide-use">
                         <small><a href="" class="about-line">VS Code</a></small>
