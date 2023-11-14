@@ -13,6 +13,7 @@ import glowing from '../images/glowingB.png';
 import craveSolution from '../images/CraveSolutions.png';
 import evspresso from '../images/evspresso.png'
 import creative from '../images/creative.png'
+import shadowcrafts from '../images/shadowcrafts.png'
 import "../css/main-style.css";
 
 
@@ -30,6 +31,40 @@ const Work = () => {
 
             {/* my project container */}
             <div class="my-projectCont ">
+
+               {/* project 1 */}
+               <div class="myproject">
+                  <div className="ImgContainer">
+                     <img src={shadowcrafts} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Shadowcrafts</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Shadow Craft, is a remarkable platform where you can easily replicate various styles of box shadows.
+                     <br />
+                     This innovative tool allows you to explore and experiment with different box shadow designs for your web projects. 
+                     <br /><br />
+                     Shadowcrafts was build by <span class="highlights">Html Css Javascript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://www.shadowcrafts.website/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
 
                {/* project 1 */}
                <div class="myproject">
@@ -553,11 +588,9 @@ const Work = () => {
 
             {/* <!-- side social media icon --> */}
             <div class="social-cont">
-                <i title="Github" class="fa-brands fa-github"></i>
-                <i title="Instagram" class="fa-brands fa-instagram"></i>
-                <i title="Twitter" class="fa-brands fa-twitter"></i>
-                <i title="Linkedin-in" class="fa-brands fa-linkedin-in"></i>
-                <i title="Codepen" class="fa-brands fa-codepen"></i>
+            <a href="https://github.com/Cebucoder" target="blank"><i title="Github" class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-abellana-543330271/" target="blank"><i title="Linkedin-in" class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-abellana-543330271/" target="blank"><i title="Facebok page" class="fa-brands fa-facebook"></i></a>
                 <div class="line"></div>
             </div>
             {/* <!-- side social media icon --> */}

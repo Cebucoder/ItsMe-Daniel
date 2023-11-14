@@ -36,7 +36,7 @@ const About = () => {
                                 <span><div class="arrow"></div> Javascript</span>
                                 <span><div class="arrow"></div> Bootstrap</span>
                                 <span><div class="arrow"></div> React</span>
-                                <span><div class="arrow"></div> Laravel</span>
+                                {/* <span><div class="arrow"></div> Laravel</span> */}
                                 <span><div class="arrow"></div> PHP</span>
                             </div>
 
@@ -52,11 +52,9 @@ const About = () => {
 
              {/* <!-- side social media icon --> */}
              <div class="social-cont">
-                <i title="Github" class="fa-brands fa-github"></i>
-                <i title="Instagram" class="fa-brands fa-instagram"></i>
-                <i title="Twitter" class="fa-brands fa-twitter"></i>
-                <i title="Linkedin-in" class="fa-brands fa-linkedin-in"></i>
-                <i title="Codepen" class="fa-brands fa-codepen"></i>
+                <a href="https://github.com/Cebucoder" target="blank"><i title="Github" class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-abellana-543330271/" target="blank"><i title="Linkedin-in" class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-abellana-543330271/" target="blank"><i title="Facebok page" class="fa-brands fa-facebook"></i></a>
                 <div class="line"></div>
             </div>
             {/* <!-- side social media icon --> */}
