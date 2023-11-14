@@ -14,6 +14,7 @@ import craveSolution from '../images/CraveSolutions.png';
 import evspresso from '../images/evspresso.png'
 import creative from '../images/creative.png'
 import shadowcrafts from '../images/shadowcrafts.png'
+import capstonemaestro from '../images/capstonemaestro.png'
 import "../css/main-style.css";
 
 
@@ -60,6 +61,38 @@ const Work = () => {
 
                      <span class="source-code-icon">
                      <a href="https://www.shadowcrafts.website/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+               {/* project 1 */}
+               <div class="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={capstonemaestro} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Capstone Maestro</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     Generate capstone project ideas tailored to your interests and field of study. The Capstone-Maestro algorithm, curated by Cebucoder, ensures a diverse range of project proposals.
+                     <br /><br />
+                     Capstone Maestro was build by <span class="highlights">Html Css Javascript</span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://capstone-maestro.vercel.app/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
                      </span>
                      </div>
                   </div>
