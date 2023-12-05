@@ -1039,6 +1039,8 @@ body{
 	transition: 0.4s;
 	font-family: monospace;
     z-index: 1;
+	visibility: hidden;
+	opacity: 0;
 }
 .menu-content ul{
 	width: 100%;
@@ -1053,6 +1055,7 @@ body{
 
 .menu-toggle{
 	right: 0;
+	opacity: 1;
 	visibility: visible;
 	transition: 0.4s;
 
@@ -1208,7 +1211,11 @@ body{
 		transition: 0.4s;
 
 	}
-	
 
-	
+}
+
+@media (max-width:375px){
+	.menu-content{
+		width: 100%;
+	}
 }

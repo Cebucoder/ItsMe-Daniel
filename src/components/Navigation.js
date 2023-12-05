@@ -15,11 +15,11 @@ const Navigation = () => {
 
     // hiding and showing navigation bar when scrool down and up
 
-    var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.scrollY;
     window.onscroll = function() {
 
 
-    var currentScrollPos = window.pageYOffset;
+    var currentScrollPos = window.scrollY;
     let menuCont = document.getElementById("menu-container");
     let hidemenu = document.getElementById("menu-content");
 
@@ -48,7 +48,7 @@ const Navigation = () => {
 
     return ( 
         <div className="navbar" id='navbar'>
-            <div class="logo" title='My Logo'>
+            <div className="logo" title='My Logo'>
                 <Link to="/"><img src={logo} alt="" /></Link>
             </div>
 
@@ -100,7 +100,7 @@ const Navigation = () => {
             <li onClick={closNav}><Link to="/Work">My Project</Link></li>
             <li onClick={closNav}><Link to="/About">About Me</Link></li>
             <li onClick={closNav}><Link to="/Contact">Contact</Link></li>
-            <li class="active" onClick={closNav}><a href="https://drive.google.com/file/d/1972NtWLfNprprIJ8Mdy9n062o8gCAstA/view?usp=share_link"target="_blank">Resume</a></li>
+            <li className="active" onClick={closNav}><a href="https://drive.google.com/file/d/1972NtWLfNprprIJ8Mdy9n062o8gCAstA/view?usp=share_link"target="_blank">Resume</a></li>
         </ul>
 	</div>
 
