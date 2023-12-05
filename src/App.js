@@ -13,9 +13,7 @@ import "./css/main-style.css";
 
 function App() {
   return (
-    // <HashRouter>
-    <BrowserRouter>
-
+    <HashRouter>
       <div className="App">
       <Navigation></Navigation>
         <Routes>
@@ -27,9 +25,7 @@ function App() {
 
       <Footer></Footer>
       </div>
-    {/* // </HashRouter> */}
-      </BrowserRouter>
-
+    </HashRouter>
     
   );
 }
