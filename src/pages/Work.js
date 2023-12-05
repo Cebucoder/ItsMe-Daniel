@@ -15,6 +15,7 @@ import evspresso from '../images/evspresso.png'
 import creative from '../images/creative.png'
 import shadowcrafts from '../images/shadowcrafts.png'
 import capstonemaestro from '../images/capstonemaestro.png'
+import luminox from '../images/luminox.png'
 import travelers from '../images/travelers.png'
 import "../css/main-style.css";
 
@@ -66,7 +67,7 @@ const Work = () => {
                </div>
                {/* <project 1 */}
 
-               {/* project 1 */}
+               {/* project 2 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={shadowcrafts} alt="" />
@@ -98,9 +99,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 2 */}
 
-               {/* project 1 */}
+               {/* project 3 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={capstonemaestro} alt="" />
@@ -130,9 +131,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 3 */}
 
-               {/* project 1 */}
+               {/* project 4 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={creative} alt="" />
@@ -163,9 +164,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 4 */}
 
-               {/* project 1 */}
+               {/* project 5 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={evspresso} alt="" />
@@ -196,10 +197,10 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 5 */}
 
 
-               {/* project 1 */}
+               {/* project 6 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={craveSolution} alt="" />
@@ -230,10 +231,10 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 6 */}
 
 
-               {/* project 1 */}
+               {/* project 7 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={glowing} alt="" />
@@ -265,9 +266,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 7 */}
 
-               {/* project 1 */}
+               {/* project 8 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={uxie} alt="" />
@@ -299,10 +300,10 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 8 */}
 
 
-               {/* project 1 */}
+               {/* project 9 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={taskido} alt="" />
@@ -335,10 +336,10 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 9 */}
 
 
-               {/* project 1 */}
+               {/* project 10 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={cebuTravel} alt="" />
@@ -371,9 +372,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 1 */}
+               {/* <project 10 */}
 
-               {/* project 2 */}
+               {/* project 11 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={lms} alt="" />
@@ -403,9 +404,9 @@ const Work = () => {
                      </span>
                   </div>
                </div>
-               {/* <project 2 */}
+               {/* <project 12 */}
 
-               {/* project 3 */}
+               {/* project 13 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={rockps} alt="" />
@@ -438,9 +439,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 3 */}
+               {/* <project 13 */}
 
-               {/* project 4 */}
+               {/* project 14 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={sebastian} alt="" />
@@ -470,9 +471,9 @@ const Work = () => {
                      </span>
                   </div>
                </div>
-               {/* <project 4 */}
+               {/* <project 14 */}
 
-               {/* project 5 */}
+               {/* project 15 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={shopaholic} alt="" />
@@ -511,9 +512,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 5 */}
+               {/* <project 15 */}
 
-               {/* project 6 */}
+               {/* project 16 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={tonette} alt="" />
@@ -543,9 +544,9 @@ const Work = () => {
                      </span>
                   </div>
                </div>
-               {/* <project 6 */}
+               {/* <project 16 */}
 
-               {/* project 7 */}
+               {/* project 17 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={codit} alt="" />
@@ -578,9 +579,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 7 */}
+               {/* <project 17 */}
 
-               {/* project 8 */}
+               {/* project 18 */}
                <div class="myproject reverse">
                   <div className="ImgContainer">
                      <img src={abeliago} alt="" />
@@ -612,9 +613,9 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 8 */}
+               {/* <project 18 */}
 
-               {/* project 9 */}
+               {/* project 19 */}
                <div class="myproject">
                   <div className="ImgContainer">
                      <img src={maxwell} alt="" />
@@ -646,7 +647,42 @@ const Work = () => {
                      </div>
                   </div>
                </div>
-               {/* <project 9 */}
+               {/* <project 19 */}
+
+               {/* project 20 */}
+               <div class="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={luminox} alt="" />
+                     <div class="imgoverlay"></div>
+                     <div className="live-demo">
+                        <a href="" target='blank'><button>Live Demo</button></a>
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>LuminoX</h1>
+                     <div class="hiding-later">
+                        {/* details */}
+                     <p>
+                     LuminoX is a K-pop website that showcases information about K-pop artists.
+                     <br /><br />
+                     LuminoX website was build by <span class="highlights">Html, CSS, JavaScript </span></p>
+
+                     <span class="ide-use">
+                        <small><a href="" class="about-line">VS Code</a></small>
+                     </span>
+
+                     <span class="source-code-icon">
+                     <a href="https://cebucoder.github.io/kpop/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     {/* <ion-icon name="code-download-outline"></ion-icon> */}
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 20 */}
+               
 
             </div>
 
