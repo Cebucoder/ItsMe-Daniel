@@ -22,13 +22,26 @@ import "../css/main-style.css";
 
 const Work = () => {
 
+   
+   // function ProjectCount(){
+   //    let Projects = document.getElementsByClassName('myproject');
+   //    for (let i = 0; i < Projects.length; i++) {
+   //       document.getElementById('count').textContent = [i];
+   //    }
+   // }
+   // ProjectCount();
+
+
     return ( 
         <div class="work-container">
+
+
 
             <div class="work" id="work">
                <div class="work-header">
                   <h2>Something I've Built </h2>
                   <span class="line"></span>
+                  {/* <h2 id='count'></h2> */}
                </div>
             </div>
 
