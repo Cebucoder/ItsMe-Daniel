@@ -17,6 +17,9 @@ import shadowcrafts from '../images/shadowcrafts.png'
 import capstonemaestro from '../images/capstonemaestro.png'
 import luminox from '../images/luminox.png'
 import travelers from '../images/travelers.png'
+import aizone from '../images/aizone.png'
+import clovers from '../images/clovers.png'
+import furniture from '../images/furniture.png'
 import "../css/main-style.css";
 
 
@@ -47,6 +50,102 @@ const Work = () => {
 
             {/* my project container */}
             <div className="my-projectCont ">
+
+               {/* project 1 */}
+               <div className="myproject">
+                  <div className="ImgContainer">
+                     <img src={aizone} alt="" />
+                     <div className="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>AiZone.ai</h1>
+                     <div className="hiding-later">
+                        {/* details */}
+                     <p>
+                     Empowering the Future with AI Graphic Generation, Unlock the potential with an Active OpenAI Token for Image Generation
+                     <br /><br />
+                     AiZone was build by <span className="highlights">Html Css Javascript</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="" className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                     <a href="https://templateventures.github.io/AIZoe.ai/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+               {/* project 1 */}
+               <div className="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={clovers} alt="" />
+                     <div className="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Clovers</h1>
+                     <div className="hiding-later">
+                        {/* details */}
+                     <p>
+                     Clovers Website is all about showcasing cosmetic products. However, this website is not live yet as it is still under production.
+                     <br /><br />
+                     Clovers was build by <span className="highlights">Html Css Javascript</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="" className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                     <a href="#" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+               {/* project 1 */}
+               <div className="myproject">
+                  <div className="ImgContainer">
+                     <img src={furniture} alt="" />
+                     <div className="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Furniture</h1>
+                     <div className="hiding-later">
+                        {/* details */}
+                     <p>
+                     The Furniture Website is all about showcasing artistic furniture products. However, this website is not live yet as it is still under production.
+                     <br /><br />
+                     Furniture was build by <span className="highlights">Html Css Javascript</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="" className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                     <a href="#" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
 
                {/* project 1 */}
                <div className="myproject reverse">
