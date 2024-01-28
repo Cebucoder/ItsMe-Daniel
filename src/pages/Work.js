@@ -20,6 +20,7 @@ import travelers from '../images/travelers.png'
 import aizone from '../images/aizone.png'
 import clovers from '../images/clovers.png'
 import furniture from '../images/furniture.png'
+import cssprefix from '../images/cssprefix.png'
 import "../css/main-style.css";
 
 
@@ -52,9 +53,41 @@ const Work = () => {
             <div className="my-projectCont ">
 
                {/* project 1 */}
+               <div className="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={cssprefix} alt="cebucoder project" />
+                     <div className="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>CSS Prefixer</h1>
+                     <div className="hiding-later">
+                        {/* details */}
+                     <p>
+                     CSS prefixing involves adding vendor-specific prefixes to CSS properties to ensure compatibility with different web browsers. This is done because browsers may implement certain CSS features with different prefixes, especially when new features are introduced and not yet standardized. 
+                     <br /><br />
+                     CSS Prefixer was build by <span className="highlights">Html Css Javascript</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                     <a href="https://cebucoder.github.io/css-prefixer/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
+
+               {/* project 1 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={aizone} alt="" />
+                     <img src={aizone} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                      </div>
@@ -72,7 +105,7 @@ const Work = () => {
                      AiZone was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -86,7 +119,7 @@ const Work = () => {
                {/* project 1 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={clovers} alt="" />
+                     <img src={clovers} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                      </div>
@@ -104,7 +137,7 @@ const Work = () => {
                      Clovers was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -118,7 +151,7 @@ const Work = () => {
                {/* project 1 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={furniture} alt="" />
+                     <img src={furniture} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                      </div>
@@ -136,7 +169,7 @@ const Work = () => {
                      Furniture was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -150,7 +183,7 @@ const Work = () => {
                {/* project 1 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={travelers} alt="" />
+                     <img src={travelers} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                      </div>
@@ -168,7 +201,7 @@ const Work = () => {
                      Travelers was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -182,7 +215,7 @@ const Work = () => {
                {/* project 2 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={shadowcrafts} alt="" />
+                     <img src={shadowcrafts} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                      </div>
@@ -202,7 +235,7 @@ const Work = () => {
                      Shadowcrafts was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -216,7 +249,7 @@ const Work = () => {
                {/* project 3 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={capstonemaestro} alt="" />
+                     <img src={capstonemaestro} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                      </div>
@@ -234,7 +267,7 @@ const Work = () => {
                      Capstone Maestro was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -248,7 +281,7 @@ const Work = () => {
                {/* project 4 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={creative} alt="" />
+                     <img src={creative} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
@@ -267,7 +300,7 @@ const Work = () => {
                      Creative was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -281,7 +314,7 @@ const Work = () => {
                {/* project 5 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={evspresso} alt="" />
+                     <img src={evspresso} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
@@ -300,7 +333,7 @@ const Work = () => {
                      Evpresso was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -315,7 +348,7 @@ const Work = () => {
                {/* project 6 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={craveSolution} alt="" />
+                     <img src={craveSolution} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
@@ -334,7 +367,7 @@ const Work = () => {
                      Crave Solutions was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -349,7 +382,7 @@ const Work = () => {
                {/* project 7 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={glowing} alt="" />
+                     <img src={glowing} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><button>Live Demo</button></a>
@@ -368,7 +401,7 @@ const Work = () => {
                      Glowing Beauty was build by <span className="highlights">React</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -383,7 +416,7 @@ const Work = () => {
                {/* project 8 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={uxie} alt="" />
+                     <img src={uxie} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://uxie-lynk-45c77.web.app/index.html" target='blank'><button>Live Demo</button></a>
@@ -402,7 +435,7 @@ const Work = () => {
                      Uxie was build by <span className="highlights">Html Css and  javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -418,7 +451,7 @@ const Work = () => {
                {/* project 9 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={taskido} alt="" />
+                     <img src={taskido} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/Todolist/index.html" target='blank'><button>Live Demo</button></a>
@@ -438,7 +471,7 @@ const Work = () => {
                      Taskido was build by <span className="highlights">Html Css and  javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -454,7 +487,7 @@ const Work = () => {
                {/* project 10 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={cebuTravel} alt="" />
+                     <img src={cebuTravel} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><button>Live Demo</button></a>
@@ -473,8 +506,8 @@ const Work = () => {
                      Cebu travel was build by <span className="highlights">Html Css and little bit of javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">Sublime</a></small>
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -489,7 +522,7 @@ const Work = () => {
                {/* project 11 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={lms} alt="" />
+                     <img src={lms} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/LMS-Capstone/login-page.html" target='blank'><button>Live Demo</button></a>
@@ -506,8 +539,8 @@ const Work = () => {
                      LMS was build by <span className="highlights">Html Css and javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">Sublime</a></small>
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -521,7 +554,7 @@ const Work = () => {
                {/* project 13 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={rockps} alt="" />
+                     <img src={rockps} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/rock-paper-scissors/" target='blank'><button>Live Demo</button></a>
@@ -540,8 +573,8 @@ const Work = () => {
                      Rock Paper and Scissor was build by <span className="highlights">Html Css and Javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">Sublime</a></small>
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -556,7 +589,7 @@ const Work = () => {
                {/* project 14 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={sebastian} alt="" />
+                     <img src={sebastian} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/Sebastian/" target='blank'><button>Live Demo</button></a>
@@ -573,8 +606,8 @@ const Work = () => {
                      Sebastian was build by <span className="highlights">Html Css and little bit of javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">Sublime</a></small>
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -588,7 +621,7 @@ const Work = () => {
                {/* project 15 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={shopaholic} alt="" />
+                     <img src={shopaholic} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/Shopaholic-PH/main-final.html" target='blank'><button>Live Demo</button></a>
@@ -607,8 +640,8 @@ const Work = () => {
                      Shopahlic website was build by <span className="highlights">Html Css Javacscript and Bootstrap</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">Sublime</a></small>
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -629,7 +662,7 @@ const Work = () => {
                {/* project 16 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={tonette} alt="" />
+                     <img src={tonette} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><button>Live Demo</button></a>
@@ -646,8 +679,8 @@ const Work = () => {
                      Tonette Website was build by <span className="highlights">Html Css Javacscript and React</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">Sublime</a></small>
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -661,7 +694,7 @@ const Work = () => {
                {/* project 17 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={codit} alt="" />
+                     <img src={codit} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/codeit/Exercise12/main.html" target='blank'><button>Live Demo</button></a>
@@ -680,8 +713,8 @@ const Work = () => {
                      Code It website was build by <span className="highlights">Html Css Javacscript and Bootstrap</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">Sublime</a></small>
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -696,10 +729,10 @@ const Work = () => {
                {/* project 18 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={abeliago} alt="" />
+                     <img src={abeliago} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
-                        <a href="" target='blank'><button>Live Demo</button></a>
+                        <a href="javascript:;" target='blank'><button>Live Demo</button></a>
                      </div>
 
                   </div>
@@ -715,7 +748,7 @@ const Work = () => {
                      Abeliago website was build by <span className="highlights">React Js / PHP</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -730,7 +763,7 @@ const Work = () => {
                {/* project 19 */}
                <div className="myproject">
                   <div className="ImgContainer">
-                     <img src={maxwell} alt="" />
+                     <img src={maxwell} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
                         <a href="https://cebucoder.github.io/maxwell/" target='blank'><button>Live Demo</button></a>
@@ -749,7 +782,7 @@ const Work = () => {
                      Maxwell website was build by <span className="highlights">Html Css and Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -764,10 +797,10 @@ const Work = () => {
                {/* project 20 */}
                <div className="myproject reverse">
                   <div className="ImgContainer">
-                     <img src={luminox} alt="" />
+                     <img src={luminox} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
-                        <a href="" target='blank'><button>Live Demo</button></a>
+                        <a href="javascript:;" target='blank'><button>Live Demo</button></a>
                      </div>
 
                   </div>
@@ -783,7 +816,7 @@ const Work = () => {
                      LuminoX website was build by <span className="highlights">Html, CSS, JavaScript </span></p>
 
                      <span className="ide-use">
-                        <small><a href="" className="about-line">VS Code</a></small>
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -811,7 +844,7 @@ const Work = () => {
 
             {/* <!-- side social media icon --> */}
             <div className="link-cont">
-                <a href="" title="My Email">Danielabellana187@gmail.com</a>
+                <a href="javascript:;" title="My Email">Danielabellana187@gmail.com</a>
                 <div className="line"></div>
             </div>
             {/* <!-- side social media icon --> */}
