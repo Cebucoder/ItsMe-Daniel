@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ItsMe-Daniel/static/css/main.ba891db2.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.0e823beb.js",
+    "main.js": "/ItsMe-Daniel/static/js/main.b16cd0ba.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
     "static/media/aizone.png": "/ItsMe-Daniel/static/media/aizone.9b9e328df2b8db4dc04f.png",
     "static/media/CraveSolutions.png": "/ItsMe-Daniel/static/media/CraveSolutions.6f091590619f67d17102.png",
@@ -11,6 +11,7 @@
     "static/media/maxwell.png": "/ItsMe-Daniel/static/media/maxwell.bd8321db983da6f4e1b4.png",
     "static/media/luminox.png": "/ItsMe-Daniel/static/media/luminox.8935d288b4bc621aa259.png",
     "static/media/Me.jpg": "/ItsMe-Daniel/static/media/Me.2c32aca160878ad6cd60.jpg",
+    "static/media/affooodable.png": "/ItsMe-Daniel/static/media/affooodable.a6dcd1a461f6603ccdb7.png",
     "static/media/travelers.png": "/ItsMe-Daniel/static/media/travelers.300fbe3901de1252ac8d.png",
     "static/media/clovers.png": "/ItsMe-Daniel/static/media/clovers.c5f09a6a85204b7f361e.png",
     "static/media/Shopaholic.png": "/ItsMe-Daniel/static/media/Shopaholic.44cd7cd44024d2367f9b.png",
@@ -30,11 +31,11 @@
     "static/media/D.png": "/ItsMe-Daniel/static/media/D.09088e603dc0414bbc68.png",
     "index.html": "/ItsMe-Daniel/index.html",
     "main.ba891db2.css.map": "/ItsMe-Daniel/static/css/main.ba891db2.css.map",
-    "main.0e823beb.js.map": "/ItsMe-Daniel/static/js/main.0e823beb.js.map",
+    "main.b16cd0ba.js.map": "/ItsMe-Daniel/static/js/main.b16cd0ba.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba891db2.css",
-    "static/js/main.0e823beb.js"
+    "static/js/main.b16cd0ba.js"
   ]
 }
