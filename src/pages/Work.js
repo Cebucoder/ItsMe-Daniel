@@ -22,6 +22,7 @@ import clovers from '../images/clovers.png'
 import furniture from '../images/furniture.png'
 import cssprefix from '../images/cssprefix.png'
 import affooodable from '../images/affooodable.png'
+import wilinkInernational from '../images/WilinkInternational.png'
 import "../css/main-style.css";
 
 
@@ -52,6 +53,37 @@ const Work = () => {
 
             {/* my project container */}
             <div className="my-projectCont ">
+
+            {/* project 1 */}
+               <div className="myproject reverse">
+                  <div className="ImgContainer">
+                     <img src={wilinkInernational} alt="cebucoder project" />
+                     <div className="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Wilink International</h1>
+                     <div className="hiding-later">
+                        {/* details */}
+                     <p>
+                     Wilink International is an internet technology company wich focus on development, investment and appliction of creative ideas and technologies on internet products. We are creating and deploying new applications wich improve people's life and work. Our products connect people with similar and smooth the flow of information and knowlegde.
+                     <br /><br />
+                     Wilink International was build by <span className="highlights">Html Css Javascript</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                     <a href="https://cebucoder.github.io/wilink2/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
 
                {/* project 1 */}
                <div className="myproject">
