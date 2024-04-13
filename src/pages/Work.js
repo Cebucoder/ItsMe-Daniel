@@ -21,6 +21,7 @@ import aizone from '../images/aizone.png'
 import clovers from '../images/clovers.png'
 import furniture from '../images/furniture.png'
 import cssprefix from '../images/cssprefix.png'
+import affooodable from '../images/affooodable.png'
 import "../css/main-style.css";
 
 
@@ -51,6 +52,37 @@ const Work = () => {
 
             {/* my project container */}
             <div className="my-projectCont ">
+
+               {/* project 1 */}
+               <div className="myproject">
+                  <div className="ImgContainer">
+                     <img src={affooodable} alt="cebucoder project" />
+                     <div className="imgoverlay"></div>
+                     <div className="live-demo">
+                     </div>
+                  </div>
+
+                  <div className="proj-details">
+                     <small>Latest Project</small>
+                     <h1>Affooodable</h1>
+                     <div className="hiding-later">
+                        {/* details */}
+                     <p>
+                     Welcome to Affooodable, your ultimate destination for delicious and budget-friendly dining options. Discover a diverse selection of mouthwatering dishes at unbeatable prices. Whether you're craving classic favorites or exploring new culinary adventures, Affooodable has something for every taste bud and budget. Join us on a culinary journey where affordability meets gastronomic delight!
+                     <br /><br />
+                     Affooodable was build by <span className="highlights">Html Css Javascript</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                     <a href="https://affooodable.vercel.app/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                     </span>
+                     </div>
+                  </div>
+               </div>
+               {/* <project 1 */}
 
                {/* project 1 */}
                <div className="myproject reverse">
