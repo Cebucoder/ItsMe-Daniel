@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ItsMe-Daniel/static/css/main.ba891db2.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.95f8cd76.js",
+    "main.js": "/ItsMe-Daniel/static/js/main.39ee50d6.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
     "static/media/WilinkInternational.png": "/ItsMe-Daniel/static/media/WilinkInternational.f62c5fd9b5ad0bddfa7b.png",
     "static/media/aizone.png": "/ItsMe-Daniel/static/media/aizone.9b9e328df2b8db4dc04f.png",
@@ -32,11 +32,11 @@
     "static/media/D.png": "/ItsMe-Daniel/static/media/D.09088e603dc0414bbc68.png",
     "index.html": "/ItsMe-Daniel/index.html",
     "main.ba891db2.css.map": "/ItsMe-Daniel/static/css/main.ba891db2.css.map",
-    "main.95f8cd76.js.map": "/ItsMe-Daniel/static/js/main.95f8cd76.js.map",
+    "main.39ee50d6.js.map": "/ItsMe-Daniel/static/js/main.39ee50d6.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba891db2.css",
-    "static/js/main.95f8cd76.js"
+    "static/js/main.39ee50d6.js"
   ]
 }
