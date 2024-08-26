@@ -13,7 +13,7 @@ const Contact = () => {
 
                   <h1>Get In Touch</h1>
                   <input id="text" type="text"  placeholder="Name: "/>
-                  <a className="email-link"  href="https://mail.google.com/mail/u/0/?fs=1&to=danielabellana187@gmail.com&su=Greetings&body=Hello Daniel&tf=cm" target="_blank">Say hello</a>
+                  <a className="email-link"  href="https://mail.google.com/mail/u/0/?fs=1&to=templateventures@gmail.com&su=Greetings&body=Hello Daniel&tf=cm" target="_blank">Say hello</a>
                </div>
 
             </div>
@@ -29,7 +29,7 @@ const Contact = () => {
 
             {/* <!-- side social media icon --> */}
             <div className="link-cont">
-                <a href="" title="My Email">Danielabellana187@gmail.com</a>
+                <a href="" title="My Email">templateventures@gmail.com</a>
                 <div className="line"></div>
             </div>
             {/* <!-- side social media icon --> */}

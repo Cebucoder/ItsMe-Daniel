@@ -61,7 +61,7 @@ const About = () => {
 
             {/* <!-- side social media icon --> */}
             <div className="link-cont">
-                <a href="" title="My Email">Danielabellana187@gmail.com</a>
+                <a href="" title="My Email">templateventures@gmail.com</a>
                 <div className="line"></div>
             </div>
             {/* <!-- side social media icon --> */}
