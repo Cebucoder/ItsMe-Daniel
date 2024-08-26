@@ -796,7 +796,7 @@ const Work = () => {
                      <img src={abeliago} alt="cebucoder project" />
                      <div className="imgoverlay"></div>
                      <div className="live-demo">
-                        <a href="javascript:;" target='blank'><button>Live Demo</button></a>
+                        <a href="https://cebucoder.github.io/abeliago/" target='blank'><button>Live Demo</button></a>
                      </div>
 
                   </div>
