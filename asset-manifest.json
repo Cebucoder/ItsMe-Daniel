@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/ItsMe-Daniel/static/css/main.ba891db2.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.90411cbf.js",
+    "main.js": "/ItsMe-Daniel/static/js/main.993b3c68.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
+    "static/media/coffe_shop.png": "/ItsMe-Daniel/static/media/coffe_shop.e87f01a4fad3ef699ea3.png",
+    "static/media/ourlib.png": "/ItsMe-Daniel/static/media/ourlib.96eccfabfd7919ee8b0f.png",
     "static/media/aizone.png": "/ItsMe-Daniel/static/media/aizone.8400e5fde6e75b61761a.png",
     "static/media/WilinkInternational.png": "/ItsMe-Daniel/static/media/WilinkInternational.36e6c14641cfaea6fb93.png",
     "static/media/CraveSolutions.png": "/ItsMe-Daniel/static/media/CraveSolutions.e1d32d1463e49f6b17a3.png",
@@ -32,11 +34,11 @@
     "static/media/taskidoLog.png": "/ItsMe-Daniel/static/media/taskidoLog.eb82b9bb51980977095b.png",
     "index.html": "/ItsMe-Daniel/index.html",
     "main.ba891db2.css.map": "/ItsMe-Daniel/static/css/main.ba891db2.css.map",
-    "main.90411cbf.js.map": "/ItsMe-Daniel/static/js/main.90411cbf.js.map",
+    "main.993b3c68.js.map": "/ItsMe-Daniel/static/js/main.993b3c68.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba891db2.css",
-    "static/js/main.90411cbf.js"
+    "static/js/main.993b3c68.js"
   ]
 }
