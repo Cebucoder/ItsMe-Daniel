@@ -80,7 +80,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/tempgallventure/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/tempgallventure/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                         <a href="https://github.com/Cebucoder/tempgallventure/tree/main" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -111,7 +111,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://ourlib.42web.io/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://ourlib.42web.io/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -141,7 +141,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/TemplateV_Design/Template1/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/TemplateV_Design/Template1/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -172,7 +172,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/wilink2/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/wilink2/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -203,7 +203,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://affooodable.vercel.app/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://affooodable.vercel.app/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -235,7 +235,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/css-prefixer/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/css-prefixer/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -267,7 +267,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/AIZoe.ai/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/AIZoe.ai/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -299,7 +299,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="#" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="#" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -331,7 +331,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="#" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="#" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -363,7 +363,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/travelers/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/travelers/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -397,7 +397,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://www.shadowcrafts.website/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://www.shadowcrafts.website/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -429,7 +429,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://capstone-maestro.vercel.app/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://capstone-maestro.vercel.app/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -462,7 +462,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/Creative/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/Creative/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -495,7 +495,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/Evspresso/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/Evspresso/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -529,7 +529,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/CraveSolutions/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/CraveSolutions/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -563,7 +563,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><ion-icon name="logo-github" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
                         <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -597,7 +597,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href=" https://uxie-lynk-45c77.web.app/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href=" https://uxie-lynk-45c77.web.app/index.html" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                         <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -633,7 +633,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href=" https://cebucoder.github.io/Todolist/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href=" https://cebucoder.github.io/Todolist/index.html" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                         <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -669,7 +669,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href=" https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href=" https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                         <a href="https://github.com/Cebucoder/Cebu-Travel" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -702,7 +702,7 @@ const Work = () => {
                   </span>
 
                   <span className="source-code-icon">
-                     <a href="https://cebucoder.github.io/LMS-Capstone/login-page.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://cebucoder.github.io/LMS-Capstone/login-page.html" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                      <a href="https://github.com/Cebucoder/LMS-Capstone/tree/master" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                   </span>
                </div>
@@ -736,7 +736,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/rock-paper-scissors/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/rock-paper-scissors/" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                         <a href="https://github.com/Cebucoder/rock-paper-scissors/tree/master" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -769,7 +769,7 @@ const Work = () => {
                   </span>
 
                   <span className="source-code-icon">
-                     <a href="https://cebucoder.github.io/Sebastian/"><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://cebucoder.github.io/Sebastian/"><ion-icon name="open-outline"></ion-icon></a>
                      <a href="https://github.com/Cebucoder/Sebastian/tree/master"><ion-icon name="code-download-outline"></ion-icon></a>
                   </span>
                </div>
@@ -805,7 +805,7 @@ const Work = () => {
                      <span className="source-code-icon">
 
                         <a href="https://cebucoder.github.io/Shopaholic-PH/main-final.html" target='blank'>
-                           <ion-icon name="logo-github"></ion-icon>
+                           <ion-icon name="open-outline"></ion-icon>
                         </a>
                         <a href="https://github.com/Cebucoder/Shopaholic-PH" target='blank'>
                            <ion-icon name="code-download-outline"></ion-icon>
@@ -842,7 +842,7 @@ const Work = () => {
                   </span>
 
                   <span className="source-code-icon">
-                     <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                     <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><ion-icon name="open-outline"></ion-icon></a>
 
                   </span>
                </div>
@@ -876,7 +876,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/codeit/Exercise12/main.html" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/codeit/Exercise12/main.html" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                         <a href="https://github.com/Cebucoder/codeit/tree/main/Exercise12" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -910,7 +910,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <ion-icon name="logo-github"></ion-icon>
+                        <ion-icon name="open-outline"></ion-icon>
                         <ion-icon name="code-download-outline"></ion-icon>
                      </span>
                   </div>
@@ -944,7 +944,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/maxwell/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/maxwell/" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                         <a href="https://github.com/Cebucoder/maxwell" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -978,7 +978,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/kpop/" target='blank'><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/kpop/" target='blank'><ion-icon name="open-outline"></ion-icon></a>
                         {/* <ion-icon name="code-download-outline"></ion-icon> */}
                      </span>
                   </div>
