@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
 
 
-    function openMenu(){
+    function openMenu() {
         let menuCont = document.getElementById("menu-container");
         let menu = document.getElementById("menu-content");
         menu.classList.toggle("menu-toggle");
@@ -16,29 +16,29 @@ const Navigation = () => {
     // hiding and showing navigation bar when scrool down and up
 
     var prevScrollpos = window.scrollY;
-    window.onscroll = function() {
+    window.onscroll = function () {
 
 
-    var currentScrollPos = window.scrollY;
-    let menuCont = document.getElementById("menu-container");
-    let hidemenu = document.getElementById("menu-content");
+        var currentScrollPos = window.scrollY;
+        let menuCont = document.getElementById("menu-container");
+        let hidemenu = document.getElementById("menu-content");
 
 
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
-        hidemenu.classList.remove("menu-toggle");
-        menuCont.classList.remove("menuCont-toggle");
-        
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+            hidemenu.classList.remove("menu-toggle");
+            menuCont.classList.remove("menuCont-toggle");
+
+        }
+        else {
+            document.getElementById("navbar").style.top = "-95px";
+            hidemenu.classList.remove("menu-toggle");
+            menuCont.classList.remove("menuCont-toggle");
+
+        }
+        prevScrollpos = currentScrollPos;
     }
-    else {
-        document.getElementById("navbar").style.top = "-95px";
-        hidemenu.classList.remove("menu-toggle");
-        menuCont.classList.remove("menuCont-toggle");
-
-    }
-    prevScrollpos = currentScrollPos;
-    }
-    function closNav(){
+    function closNav() {
         let menuCont = document.getElementById("menu-container");
         let menu = document.getElementById("menu-content");
         let hidemenu = document.getElementById("menu-content");
@@ -46,7 +46,7 @@ const Navigation = () => {
         menuCont.classList.remove("menuCont-toggle");
     }
 
-    return ( 
+    return (
         <div className="navbar" id='navbar'>
             <div className="logo" title='My Logo'>
                 <Link to="/"><img src={logo} alt="" /></Link>
@@ -54,34 +54,34 @@ const Navigation = () => {
 
             <div className="navlink">
                 <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                    <div className="navbox1"></div>
-                    <div className="navbox2"></div>
-                    
-                </li>
-                <li>
-                    <Link to="/Work">Work</Link>
-                    <div className="navbox1"></div>
-                    <div className="navbox2"></div>
-                       
-                </li>
-                <li>
-                    <Link to="/About">About Me</Link>
-                    <div className="navbox1"></div>
-                    <div className="navbox2"></div>
-                    
-                </li>
-                <li>
-                    <Link to="/Contact">Contact</Link>
-                    <div className="navbox1"></div>
-                    <div className="navbox2"></div>
-                    
-                </li>
-                    
-                <li className="active">
+                    <li>
+                        <Link to="/">Home</Link>
+                        <div className="navbox1"></div>
+                        <div className="navbox2"></div>
+
+                    </li>
+                    <li>
+                        <Link to="/Work">Work</Link>
+                        <div className="navbox1"></div>
+                        <div className="navbox2"></div>
+
+                    </li>
+                    <li>
+                        <Link to="/About">About Me</Link>
+                        <div className="navbox1"></div>
+                        <div className="navbox2"></div>
+
+                    </li>
+                    <li>
+                        <Link to="/Contact">Contact</Link>
+                        <div className="navbox1"></div>
+                        <div className="navbox2"></div>
+
+                    </li>
+
+                    {/* <li className="active">
                     <a href="https://drive.google.com/file/d/1972NtWLfNprprIJ8Mdy9n062o8gCAstA/view?usp=share_link" target="_blank">Resume</a>
-                </li>
+                </li> */}
                 </ul>
             </div>
 
@@ -89,24 +89,24 @@ const Navigation = () => {
                 <div className="line1"></div>
                 <div className="line2"></div>
                 <div className="line3"></div>
-		    </div>
+            </div>
 
             {/* <!-- sliding menu --> */}
-	<div className="menu-container" id='menu-container'>
-	</div>
-	<div className="menu-content" id='menu-content'>
-        <ul>
-            <li onClick={closNav}><Link to="/">Home</Link></li>
-            <li onClick={closNav}><Link to="/Work">My Project</Link></li>
-            <li onClick={closNav}><Link to="/About">About Me</Link></li>
-            <li onClick={closNav}><Link to="/Contact">Contact</Link></li>
-            <li className="active" onClick={closNav}><a href="https://drive.google.com/file/d/1972NtWLfNprprIJ8Mdy9n062o8gCAstA/view?usp=share_link"target="_blank">Resume</a></li>
-        </ul>
-	</div>
+            <div className="menu-container" id='menu-container'>
+            </div>
+            <div className="menu-content" id='menu-content'>
+                <ul>
+                    <li onClick={closNav}><Link to="/">Home</Link></li>
+                    <li onClick={closNav}><Link to="/Work">My Project</Link></li>
+                    <li onClick={closNav}><Link to="/About">About Me</Link></li>
+                    <li onClick={closNav}><Link to="/Contact">Contact</Link></li>
+                    <li className="active" onClick={closNav}><a href="https://drive.google.com/file/d/1972NtWLfNprprIJ8Mdy9n062o8gCAstA/view?usp=share_link" target="_blank">Resume</a></li>
+                </ul>
+            </div>
 
 
         </div>
-     );
+    );
 }
- 
+
 export default Navigation;
