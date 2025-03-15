@@ -19,10 +19,70 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
     <div id="root"></div>
+    <div class="crr_ball"></div>
   </body>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script>
+    // Check if it's a touch device
+const isTouchDevice = 'ontouchstart' in window;
+const createCursorFollower = () => {
+  const $el = document.querySelector('.crr_ball');
+  gsap.set(".crr_ball", {xPercent: -50, yPercent: -50});
+  window.addEventListener('mousemove', (e) => {
+    const { target, x, y } = e;
+    const isTargetLinkOrBtn = target?.closest('a') || target?.closest('button');
+    gsap.to($el, {
+      xPercent: -50,
+      yPercent: -50,
+      x: x + 3,
+      y: y + 3,
+      duration: 0.7,
+      ease: 'elastic.out(1, 0.5)',
+      opacity: isTargetLinkOrBtn ? 0.4 : 1,
+      transform: `scale(${isTargetLinkOrBtn ? 2 : 1})`,
+      
+    });
+  });
+
+  document.addEventListener('mouseleave', (e) => {
+    gsap.to($el, {
+      duration: 0.7,
+      opacity: 0,
+      scale: 0,
+      ease: 'elastic.out(1, 0.5)',
+    });
+  });
+};
+if (!isTouchDevice) {
+  createCursorFollower();
+}
+</script>
+
+<script>
+
+  const lenis = new Lenis()
+
+  lenis.on('scroll', (e) => {
+  // console.log(e)
+  })
+
+  lenis.on('scroll', ScrollTrigger.update)
+
+  gsap.ticker.add((time)=>{
+  lenis.raf(time * 600)
+  })
+
+  gsap.ticker.lagSmoothing(0)
+</script>
+
+
 
 </html>
