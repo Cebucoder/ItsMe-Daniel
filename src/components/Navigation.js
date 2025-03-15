@@ -26,14 +26,14 @@ const Navigation = () => {
 
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
-            hidemenu.classList.remove("menu-toggle");
-            menuCont.classList.remove("menuCont-toggle");
+            // hidemenu.classList.remove("menu-toggle");
+            // menuCont.classList.remove("menuCont-toggle");
 
         }
         else {
             document.getElementById("navbar").style.top = "-95px";
-            hidemenu.classList.remove("menu-toggle");
-            menuCont.classList.remove("menuCont-toggle");
+            // hidemenu.classList.remove("menu-toggle");
+            // menuCont.classList.remove("menuCont-toggle");
 
         }
         prevScrollpos = currentScrollPos;

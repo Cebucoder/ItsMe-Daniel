@@ -28,7 +28,6 @@ import coffeshop from '../images/coffe_shop.png'
 import tempgallventure from '../images/tempgallventure.png'
 import "../css/main-style.css";
 
-
 const Work = () => {
 
 
@@ -46,7 +45,7 @@ const Work = () => {
 
 
 
-         <div className="work" id="work">
+         <div className="work wow fadeIn" id="work">
             <div className="work-header">
                <h2>Something I've Built </h2>
                <span className="line"></span>
@@ -76,7 +75,7 @@ const Work = () => {
                         TempGallVenture was build by <span className="highlights">Html Css Javascript Query</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -107,7 +106,7 @@ const Work = () => {
                         Ourlib was build by <span className="highlights">Html Css Javascript Query PHP</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -137,7 +136,7 @@ const Work = () => {
                         Coffee Shop Template was build by <span className="highlights">Html Css Javascript Query</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -168,7 +167,7 @@ const Work = () => {
                         Wilink International was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -199,7 +198,7 @@ const Work = () => {
                         Affooodable was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -231,7 +230,7 @@ const Work = () => {
                         CSS Prefixer was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -263,7 +262,7 @@ const Work = () => {
                         AiZone was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -295,7 +294,7 @@ const Work = () => {
                         Clovers was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -327,7 +326,7 @@ const Work = () => {
                         Furniture was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -359,7 +358,7 @@ const Work = () => {
                         Travelers was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -393,7 +392,7 @@ const Work = () => {
                         Shadowcrafts was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -425,7 +424,7 @@ const Work = () => {
                         Capstone Maestro was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -458,7 +457,7 @@ const Work = () => {
                         Creative was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -491,7 +490,7 @@ const Work = () => {
                         Evpresso was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -525,7 +524,7 @@ const Work = () => {
                         Crave Solutions was build by <span className="highlights">Html Css Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -559,7 +558,7 @@ const Work = () => {
                         Glowing Beauty was build by <span className="highlights">React</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -593,7 +592,7 @@ const Work = () => {
                         Uxie was build by <span className="highlights">Html Css and  javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -629,7 +628,7 @@ const Work = () => {
                         Taskido was build by <span className="highlights">Html Css and  javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -664,8 +663,8 @@ const Work = () => {
                         Cebu travel was build by <span className="highlights">Html Css and little bit of javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Sublime</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -697,8 +696,8 @@ const Work = () => {
                      LMS was build by <span className="highlights">Html Css and javacscript</span></p>
 
                   <span className="ide-use">
-                     <small><a href="javascript:;" className="about-line">Sublime</a></small>
-                     <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                     <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Sublime</a></small>
+                     <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                   </span>
 
                   <span className="source-code-icon">
@@ -731,8 +730,8 @@ const Work = () => {
                         Rock Paper and Scissor was build by <span className="highlights">Html Css and Javacscript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Sublime</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -764,8 +763,8 @@ const Work = () => {
                      Sebastian was build by <span className="highlights">Html Css and little bit of javacscript</span></p>
 
                   <span className="ide-use">
-                     <small><a href="javascript:;" className="about-line">Sublime</a></small>
-                     <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                     <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Sublime</a></small>
+                     <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                   </span>
 
                   <span className="source-code-icon">
@@ -798,8 +797,8 @@ const Work = () => {
                         Shopahlic website was build by <span className="highlights">Html Css Javacscript and Bootstrap</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Sublime</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -837,8 +836,8 @@ const Work = () => {
                      Tonette Website was build by <span className="highlights">Html Css Javacscript and React</span></p>
 
                   <span className="ide-use">
-                     <small><a href="javascript:;" className="about-line">Sublime</a></small>
-                     <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                     <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Sublime</a></small>
+                     <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                   </span>
 
                   <span className="source-code-icon">
@@ -871,8 +870,8 @@ const Work = () => {
                         Code It website was build by <span className="highlights">Html Css Javacscript and Bootstrap</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">Sublime</a></small>
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Sublime</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -906,7 +905,7 @@ const Work = () => {
                         Abeliago website was build by <span className="highlights">React Js / PHP</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -940,7 +939,7 @@ const Work = () => {
                         Maxwell website was build by <span className="highlights">Html Css and Javascript</span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -958,7 +957,7 @@ const Work = () => {
                   <img src={luminox} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="javascript:;" target='blank'><button>Live Demo</button></a>
+                     <a href="#" onClick={(e) => e.preventDefault()}><button>Live Demo</button></a>
                   </div>
 
                </div>
@@ -974,7 +973,7 @@ const Work = () => {
                         LuminoX website was build by <span className="highlights">Html, CSS, JavaScript </span></p>
 
                      <span className="ide-use">
-                        <small><a href="javascript:;" className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -995,14 +994,14 @@ const Work = () => {
          <div className="social-cont">
             <a href="https://github.com/Cebucoder" target="blank"><i title="Github" className="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/daniel-abellana-543330271/" target="blank"><i title="Linkedin-in" className="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://www.linkedin.com/in/daniel-abellana-543330271/" target="blank"><i title="Facebok page" className="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/templateventures" target="blank"><i title="Facebok page" className="fa-brands fa-facebook"></i></a>
             <div className="line"></div>
          </div>
          {/* <!-- side social media icon --> */}
 
          {/* <!-- side social media icon --> */}
          <div className="link-cont">
-            <a href="javascript:;" title="My Email">templateventures@gmail.com</a>
+            <a href="#" onClick={(e) => e.preventDefault()} title="My Email">templateventures@gmail.com</a>
             <div className="line"></div>
          </div>
          {/* <!-- side social media icon --> */}
