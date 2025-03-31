@@ -761,19 +761,17 @@ body {
 
 .live-demo {
 	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
+	left: 20px;
+	top: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
 	transition: 0.5s;
-	display: none;
+	/* display: none; */
 }
 
-.live-demo:hover {
+.ImgContainer:hover .live-demo {
 	opacity: 1;
 
 }
@@ -781,7 +779,7 @@ body {
 .live-demo button {
 	width: 150px;
 	height: 50px;
-	border: 2px solid transparent;
+	border: 1px solid #64ffda;
 	color: #64ffda;
 	background: #112240;
 	border-radius: 50px;
@@ -1141,6 +1139,7 @@ body {
 
 .sec_lay .myproject {
 	padding: 0;
+	margin-bottom: 0;
 }
 
 .sec_lay .ImgContainer img {
@@ -1214,6 +1213,14 @@ body {
 
 }
 
+
+@media only screen and (max-width:800px) {
+	.sec_lay {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
 @media (max-width:739px) {
 	.proj-details {
 		position: absolute;
@@ -1224,6 +1231,8 @@ body {
 		width: 100%;
 		height: auto;
 		border: 1px solid #64ffda;
+		padding: 0;
+		margin: 0;
 	}
 
 	.ImgContainer img {
@@ -1241,6 +1250,8 @@ body {
 
 	.myproject {
 		justify-content: center;
+		padding: 0;
+		margin-bottom: 15px;
 	}
 
 	.proj-details {
@@ -1257,6 +1268,11 @@ body {
 
 	.reverse .source-code-icon {
 		text-align: left;
+	}
+
+	.reverse {
+		margin: 0;
+		margin-bottom: 15px;
 	}
 }
 
@@ -1464,6 +1480,10 @@ body {
 
 	.footer-container .social-cont {
 		display: flex;
+	}
+
+	.sec_lay {
+		grid-template-columns: 1fr;
 	}
 }
 

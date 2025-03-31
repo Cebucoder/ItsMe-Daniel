@@ -29,6 +29,8 @@ import tempgallventure from '../images/tempgallventure.png'
 import teamspector from '../images/teamspector.png'
 import "../css/main-style.css";
 
+import React, { useState, useEffect } from "react";
+
 const Work = () => {
 
 
@@ -40,25 +42,22 @@ const Work = () => {
    // }
    // ProjectCount();
 
-   const viewContainer = document.querySelector('.my-projectCont');
-   const buttons = document.querySelectorAll('.dis_comp span');
+   const [view, setView] = useState("list");
 
-   function toggleView(view) {
-      // Toggle the container class based on the selected view
-      viewContainer.classList.toggle("sec_lay", view === "grid");
+   // Load saved view from localStorage on mount
+   useEffect(() => {
+      const savedView = localStorage.getItem("selectedView") || "list";
+      setView(savedView);
+   }, []);
 
-      // Loop through buttons and toggle active class dynamically
-      buttons.forEach(btn => {
-         btn.classList.toggle("curr_dis", btn.dataset.view === view);
-      });
-   }
+   // Function to toggle view
+   const toggleView = (selectedView) => {
+      setView(selectedView);
+      localStorage.setItem("selectedView", selectedView);
+   };
 
-   // Attach event listeners dynamically
-   buttons.forEach(btn => {
-      btn.addEventListener("click", function () {
-         toggleView(this.dataset.view);
-      });
-   });
+
+
 
 
    return (
@@ -75,12 +74,12 @@ const Work = () => {
          </div>
 
          <div className='dis_comp'>
-            <span data-view="list" className="dis_btn1 curr_dis"><ion-icon name="list-outline"></ion-icon></span>
-            <span data-view="grid" className="dis_btn2"><ion-icon name="grid-outline"></ion-icon></span>
+            <span className={view === "list" ? "curr_dis" : ""} onClick={() => toggleView("list")} ><ion-icon name="list-outline"></ion-icon></span>
+            <span className={view === "grid" ? "curr_dis" : ""} onClick={() => toggleView("grid")}><ion-icon name="grid-outline"></ion-icon></span>
          </div>
 
          {/* my project container */}
-         <div className="my-projectCont">
+         <div className={`my-projectCont ${view === "grid" ? "sec_lay" : ""}`}>
 
             {/* project 1 */}
             <div className=" myproject reverse">
@@ -88,6 +87,7 @@ const Work = () => {
                   <img src={teamspector} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://cebucoder.github.io/tempspector/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -105,8 +105,8 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/tempspector/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
-                        <a href="https://github.com/Cebucoder/tempgallventure/tree/main" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/tempspector/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
                      </span>
                   </div>
                </div>
@@ -121,6 +121,7 @@ const Work = () => {
                   <img src={tempgallventure} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://cebucoder.github.io/tempgallventure/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -138,7 +139,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/tempgallventure/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/tempgallventure/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                         <a href="https://github.com/Cebucoder/tempgallventure/tree/main" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -152,6 +153,7 @@ const Work = () => {
                   <img src={ourlib} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://ourlib.42web.io/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -169,7 +171,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://ourlib.42web.io/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://ourlib.42web.io/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -182,6 +184,7 @@ const Work = () => {
                   <img src={coffeshop} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://cebucoder.github.io/TemplateV_Design/Template1/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -199,7 +202,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/TemplateV_Design/Template1/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/TemplateV_Design/Template1/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -212,6 +215,7 @@ const Work = () => {
                   <img src={wilinkInernational} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://cebucoder.github.io/wilink2/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -230,7 +234,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/wilink2/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/wilink2/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -243,6 +247,7 @@ const Work = () => {
                   <img src={affooodable} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://affooodable.vercel.app/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -261,7 +266,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://affooodable.vercel.app/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://affooodable.vercel.app/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -274,6 +279,7 @@ const Work = () => {
                   <img src={cssprefix} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://cebucoder.github.io/css-prefixer/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -293,7 +299,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/css-prefixer/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/css-prefixer/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -306,6 +312,7 @@ const Work = () => {
                   <img src={aizone} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://templateventures.github.io/AIZoe.ai/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -325,7 +332,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/AIZoe.ai/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/AIZoe.ai/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -338,6 +345,7 @@ const Work = () => {
                   <img src={clovers} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     {/* <a href="https://cebucoder.github.io/tempspector/" target='blank'><button>Live Preview</button></a> */}
                   </div>
 
                </div>
@@ -357,7 +365,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="#" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="#" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -389,7 +397,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="#" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="#" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -402,6 +410,7 @@ const Work = () => {
                   <img src={travelers} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://cebucoder.github.io/travelers/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -421,7 +430,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://cebucoder.github.io/travelers/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://cebucoder.github.io/travelers/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -434,6 +443,7 @@ const Work = () => {
                   <img src={shadowcrafts} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://cebucoder.github.io/shadowcrafts/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -455,7 +465,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://www.shadowcrafts.website/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://www.shadowcrafts.website/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -468,6 +478,7 @@ const Work = () => {
                   <img src={capstonemaestro} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
+                     <a href="https://capstone-maestro.vercel.app/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -487,7 +498,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://capstone-maestro.vercel.app/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://capstone-maestro.vercel.app/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -500,7 +511,7 @@ const Work = () => {
                   <img src={creative} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
+                     <a href="https://templateventures.github.io/Creative/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -520,7 +531,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/Creative/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/Creative/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -533,7 +544,7 @@ const Work = () => {
                   <img src={evspresso} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
+                     <a href="https://templateventures.github.io/Evspresso/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -553,7 +564,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/Evspresso/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/Evspresso/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -567,7 +578,7 @@ const Work = () => {
                   <img src={craveSolution} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     {/* <a href="https://cebucoder.github.io/Glowing_Beauty/" target='blank'><button>Live Demo</button></a> */}
+                     <a href="https://templateventures.github.io/CraveSolutions/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -587,7 +598,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/CraveSolutions/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/CraveSolutions/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                      </span>
                   </div>
                </div>
@@ -601,7 +612,7 @@ const Work = () => {
                   <img src={glowing} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><button>Live Demo</button></a>
+                     <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -621,7 +632,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://templateventures.github.io/GlowingBeauty/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                         <a href="#" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
                      </span>
                   </div>
@@ -635,7 +646,7 @@ const Work = () => {
                   <img src={uxie} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://uxie-lynk-45c77.web.app/index.html" target='blank'><button>Live Demo</button></a>
+                     <a href="https://uxie-lynk-45c77.web.app/index.html" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -670,7 +681,7 @@ const Work = () => {
                   <img src={taskido} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/Todolist/index.html" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/Todolist/index.html" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -706,7 +717,7 @@ const Work = () => {
                   <img src={cebuTravel} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/Cebu-Travel/html/index.html" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -741,7 +752,7 @@ const Work = () => {
                   <img src={lms} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/LMS-Capstone/login-page.html" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/LMS-Capstone/login-page.html" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -773,7 +784,7 @@ const Work = () => {
                   <img src={rockps} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/rock-paper-scissors/" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/rock-paper-scissors/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -808,7 +819,7 @@ const Work = () => {
                   <img src={sebastian} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/Sebastian/" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/Sebastian/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -840,7 +851,7 @@ const Work = () => {
                   <img src={shopaholic} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/Shopaholic-PH/main-final.html" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/Shopaholic-PH/main-final.html" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -881,7 +892,7 @@ const Work = () => {
                   <img src={tonette} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/Tonette-Events/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -913,7 +924,7 @@ const Work = () => {
                   <img src={codit} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/codeit/Exercise12/main.html" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/codeit/Exercise12/main.html" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -948,7 +959,7 @@ const Work = () => {
                   <img src={abeliago} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/abeliago/" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/abeliago/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -982,7 +993,7 @@ const Work = () => {
                   <img src={maxwell} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://cebucoder.github.io/maxwell/" target='blank'><button>Live Demo</button></a>
+                     <a href="https://cebucoder.github.io/maxwell/" target='blank'><button>Live Preview</button></a>
                   </div>
 
                </div>
@@ -1016,7 +1027,7 @@ const Work = () => {
                   <img src={luminox} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="#" onClick={(e) => e.preventDefault()}><button>Live Demo</button></a>
+                     <a href="#" onClick={(e) => e.preventDefault()}><button>Live Preview</button></a>
                   </div>
 
                </div>
