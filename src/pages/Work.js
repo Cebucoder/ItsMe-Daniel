@@ -26,6 +26,7 @@ import wilinkInernational from '../images/WilinkInternational.png'
 import ourlib from '../images/ourlib.png'
 import coffeshop from '../images/coffe_shop.png'
 import tempgallventure from '../images/tempgallventure.png'
+import teamspector from '../images/teamspector.png'
 import "../css/main-style.css";
 
 const Work = () => {
@@ -38,6 +39,26 @@ const Work = () => {
    //    }
    // }
    // ProjectCount();
+
+   const viewContainer = document.querySelector('.my-projectCont');
+   const buttons = document.querySelectorAll('.dis_comp span');
+
+   function toggleView(view) {
+      // Toggle the container class based on the selected view
+      viewContainer.classList.toggle("sec_lay", view === "grid");
+
+      // Loop through buttons and toggle active class dynamically
+      buttons.forEach(btn => {
+         btn.classList.toggle("curr_dis", btn.dataset.view === view);
+      });
+   }
+
+   // Attach event listeners dynamically
+   buttons.forEach(btn => {
+      btn.addEventListener("click", function () {
+         toggleView(this.dataset.view);
+      });
+   });
 
 
    return (
@@ -53,8 +74,46 @@ const Work = () => {
             </div>
          </div>
 
+         <div className='dis_comp'>
+            <span data-view="list" className="dis_btn1 curr_dis"><ion-icon name="list-outline"></ion-icon></span>
+            <span data-view="grid" className="dis_btn2"><ion-icon name="grid-outline"></ion-icon></span>
+         </div>
+
          {/* my project container */}
-         <div className="my-projectCont ">
+         <div className="my-projectCont">
+
+            {/* project 1 */}
+            <div className=" myproject reverse">
+               <div className="ImgContainer">
+                  <img src={teamspector} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                  </div>
+               </div>
+
+               <div className="proj-details">
+                  <small>Latest Project</small>
+                  <h1>TeamSpector</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        Test your website's responsiveness across various screen sizes, including mobile, tablet, and desktop. Perfect for developers and designers!<br /><br />
+                        TeamSpector was build by <span className="highlights">Html Css Javascript Query</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://cebucoder.github.io/tempspector/" target='blank'><ion-icon name="open-outline" title="Live demo"></ion-icon></a>
+                        <a href="https://github.com/Cebucoder/tempgallventure/tree/main" target='blank'><ion-icon name="code-download-outline"></ion-icon></a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
+
 
             {/* project 1 */}
             <div className="myproject ">

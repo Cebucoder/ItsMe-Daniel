@@ -1110,6 +1110,79 @@ body {
 	}
 }
 
+
+
+
+
+/* grdi_view */
+
+.sec_lay .proj-details {
+	display: none;
+}
+
+.sec_lay {
+	display: grid;
+	place-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	margin-top: 20px;
+	/* transition: opacity 0.3s ease-in-out; */
+}
+
+
+.sec_lay .reverse {
+	margin: 0;
+}
+
+.sec_lay .ImgContainer {
+	max-width: 100%;
+	width: 100%;
+}
+
+.sec_lay .myproject {
+	padding: 0;
+}
+
+.sec_lay .ImgContainer img {
+	height: 100%;
+}
+
+
+
+
+.dis_comp {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 25px 0 0;
+}
+
+.dis_comp span {
+	padding: 10px;
+	color: #8892b0;
+	font-size: 24px;
+}
+
+.dis_comp span:hover {
+	color: #64ffda;
+	cursor: pointer;
+}
+
+.dis_comp .curr_dis {
+	color: #64ffda;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ================================== */
 @media (max-width:1000px) {
 	.crr_ball {
