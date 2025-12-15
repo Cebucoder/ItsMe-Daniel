@@ -27,6 +27,9 @@ import ourlib from '../images/ourlib.png'
 import coffeshop from '../images/coffe_shop.png'
 import tempgallventure from '../images/tempgallventure.png'
 import teamspector from '../images/teamspector.png'
+import reva from '../images/reva.png'
+import shooter from '../images/shooter.jpg'
+
 import "../css/main-style.css";
 
 import React, { useState, useEffect } from "react";
@@ -57,6 +60,44 @@ const Work = () => {
    };
 
 
+   // Category state
+   const [category, setCategory] = useState("all");
+
+   // Category toggle
+   const toggleCategory = (cat) => {
+      setCategory(cat);
+      localStorage.setItem("selectedCategory", cat);
+   };
+
+   // Load saved category on mount
+   useEffect(() => {
+      const savedCategory = localStorage.getItem("selectedCategory");
+      if (savedCategory) {
+         setCategory(savedCategory);
+      }
+   }, []);
+
+   // Filter projects based on class
+   useEffect(() => {
+      const projects = document.querySelectorAll(".myproject");
+
+      projects.forEach((proj) => {
+         // remove active class first
+         proj.classList.remove("active_Cat");
+
+         if (category === "all") {
+            proj.style.display = "flex";
+         } else {
+            if (proj.classList.contains(category)) {
+               proj.style.display = "flex";
+               proj.classList.add("active_Cat"); // ✅ correct way
+            } else {
+               proj.style.display = "none";
+            }
+         }
+      });
+   }, [category]);
+
 
 
 
@@ -78,11 +119,83 @@ const Work = () => {
             <span className={view === "grid" ? "curr_dis" : ""} onClick={() => toggleView("grid")}><ion-icon name="grid-outline"></ion-icon></span>
          </div>
 
+         <div className='prof_category'>
+            <span className={category === "all" ? "curr_cat" : ""} onClick={() => toggleCategory("all")}>See All</span>
+            <span className={category === "tls" ? "curr_cat" : ""} onClick={() => toggleCategory("tls")}>Tools</span>
+            <span className={category === "fr_end" ? "curr_cat" : ""} onClick={() => toggleCategory("fr_end")}>Front End</span>
+            <span className={category === "gms" ? "curr_cat" : ""} onClick={() => toggleCategory("gms")}>Games</span>
+         </div>
+
+
          {/* my project container */}
          <div className={`my-projectCont ${view === "grid" ? "sec_lay" : ""}`}>
 
+
             {/* project 1 */}
-            <div className=" myproject reverse">
+            <div className=" myproject reverse fr_end">
+               <div className="ImgContainer">
+                  <img src={reva} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://cebucoder.github.io/revaoperations/" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
+
+               <div className="proj-details">
+                  <small>Latest Project</small>
+                  <h1>REVA</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        REVA Operations & Strategy Solutions is a client project, showcasing a clean and professional website built to highlight their services in operations and strategic support. The site focuses on clarity, structure, and user-friendly design. <span className="highlights">Html Css Javascript Query etc</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://cebucoder.github.io/tempspector/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
+
+            {/* project 1 */}
+            <div className=" myproject gms">
+               <div className="ImgContainer">
+                  <img src={shooter} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://cebucoder.github.io/shootmedaddy/" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
+
+               <div className="proj-details">
+                  <small>Latest Project</small>
+                  <h1>SUITCASE SHOOTER</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        ShootMeDaddy/Suitecase Shooter is a vibe-coding experiment created using Cursor AI, focused on rapid ideation, playful UI, and exploring how AI-assisted coding can turn concepts into interactive web experiences quickly. <span className="highlights">Html Css Javascript & Cursor AI</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://cebucoder.github.io/shootmedaddy/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
+            {/* project 1 */}
+            <div className=" myproject reverse tls">
                <div className="ImgContainer">
                   <img src={teamspector} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -116,7 +229,7 @@ const Work = () => {
 
 
             {/* project 1 */}
-            <div className="myproject ">
+            <div className="myproject tls">
                <div className="ImgContainer">
                   <img src={tempgallventure} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -148,7 +261,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse tls">
                <div className="ImgContainer">
                   <img src={ourlib} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -179,7 +292,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={coffeshop} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -210,7 +323,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={wilinkInernational} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -242,7 +355,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={affooodable} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -274,7 +387,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse tls">
                <div className="ImgContainer">
                   <img src={cssprefix} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -307,7 +420,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={aizone} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -340,7 +453,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={clovers} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -373,7 +486,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={furniture} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -405,7 +518,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={travelers} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -438,7 +551,7 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 2 */}
-            <div className="myproject">
+            <div className="myproject tls">
                <div className="ImgContainer">
                   <img src={shadowcrafts} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -473,7 +586,7 @@ const Work = () => {
             {/* <project 2 */}
 
             {/* project 3 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse tls">
                <div className="ImgContainer">
                   <img src={capstonemaestro} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -506,7 +619,7 @@ const Work = () => {
             {/* <project 3 */}
 
             {/* project 4 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={creative} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -539,7 +652,7 @@ const Work = () => {
             {/* <project 4 */}
 
             {/* project 5 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={evspresso} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -573,7 +686,7 @@ const Work = () => {
 
 
             {/* project 6 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={craveSolution} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -607,7 +720,7 @@ const Work = () => {
 
 
             {/* project 7 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={glowing} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -641,7 +754,7 @@ const Work = () => {
             {/* <project 7 */}
 
             {/* project 8 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={uxie} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -676,7 +789,7 @@ const Work = () => {
 
 
             {/* project 9 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end tls">
                <div className="ImgContainer">
                   <img src={taskido} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -712,7 +825,7 @@ const Work = () => {
 
 
             {/* project 10 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={cebuTravel} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -747,7 +860,7 @@ const Work = () => {
             {/* <project 10 */}
 
             {/* project 11 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={lms} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -779,7 +892,7 @@ const Work = () => {
             {/* <project 12 */}
 
             {/* project 13 */}
-            <div className="myproject">
+            <div className="myproject gms">
                <div className="ImgContainer">
                   <img src={rockps} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -814,7 +927,7 @@ const Work = () => {
             {/* <project 13 */}
 
             {/* project 14 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={sebastian} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -846,7 +959,7 @@ const Work = () => {
             {/* <project 14 */}
 
             {/* project 15 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={shopaholic} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -887,7 +1000,7 @@ const Work = () => {
             {/* <project 15 */}
 
             {/* project 16 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={tonette} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -919,7 +1032,7 @@ const Work = () => {
             {/* <project 16 */}
 
             {/* project 17 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={codit} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -954,7 +1067,7 @@ const Work = () => {
             {/* <project 17 */}
 
             {/* project 18 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={abeliago} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -988,7 +1101,7 @@ const Work = () => {
             {/* <project 18 */}
 
             {/* project 19 */}
-            <div className="myproject">
+            <div className="myproject fr_end">
                <div className="ImgContainer">
                   <img src={maxwell} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
@@ -1022,7 +1135,7 @@ const Work = () => {
             {/* <project 19 */}
 
             {/* project 20 */}
-            <div className="myproject reverse">
+            <div className="myproject reverse fr_end">
                <div className="ImgContainer">
                   <img src={luminox} alt="cebucoder project" />
                   <div className="imgoverlay"></div>

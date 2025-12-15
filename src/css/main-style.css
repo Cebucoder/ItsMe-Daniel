@@ -707,6 +707,40 @@ body {
 	border: 1px solid #64ffda17;
 }
 
+.prof_category {
+	display: flex;
+	gap: 20px;
+	padding-top: 20px;
+	color: #fff;
+}
+.prof_category span {
+	border: 1px solid #8892b0;
+	padding: 10px 30px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.prof_category {
+	gap: 20px;
+	color: #fff;
+	gap: 15px;
+	color: #8892b0;
+}
+.prof_category span:hover {
+	border: 1px solid #64ffda;
+	color: #64ffda;
+}
+
+.hideCat {
+  display: none;
+}
+
+.prof_category span.curr_cat {
+	border: 1px solid #64ffda;
+	color: #64ffda;
+}
+
+
+
 .my-projectCont {
 	width: 100%;
 	height: auto;
@@ -724,6 +758,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
+	transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .ImgContainer {
