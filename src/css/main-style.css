@@ -712,6 +712,7 @@ body {
 	gap: 20px;
 	padding-top: 20px;
 	color: #fff;
+	flex-wrap: wrap;
 }
 .prof_category span {
 	border: 1px solid #8892b0;
@@ -1557,4 +1558,5 @@ body {
 	.menu-content {
 		width: 100%;
 	}
+	.prof_category span{width: 100%; max-width: 100%; text-align: center;}
 }
