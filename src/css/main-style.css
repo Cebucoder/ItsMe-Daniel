@@ -558,10 +558,11 @@ body {
 .mylang {
 	width: auto;
 	height: auto;
-	display: flex;
+	/* display: flex; */
 	flex-direction: column;
 	font-family: monospace;
 	margin: 10px 0;
+	column-count: 2;
 }
 
 /* .mylang ion-icon{
@@ -738,6 +739,7 @@ body {
 .prof_category span.curr_cat {
 	border: 1px solid #64ffda;
 	color: #64ffda;
+	background: #64ffda0a;
 }
 
 

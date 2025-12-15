@@ -36,6 +36,7 @@ const About = () => {
                         {/* <span><div className="arrow"></div> Laravel</span> */}
                         <span><div className="arrow"></div> PHP</span>
                         <span><div className="arrow"></div> WordPress</span>
+                        <span><div className="arrow"></div> Elementor</span>
                     </div>
 
                 </div>
