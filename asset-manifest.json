@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/ItsMe-Daniel/static/css/main.89435722.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.0f536683.js",
+    "main.css": "/ItsMe-Daniel/static/css/main.be79b632.css",
+    "main.js": "/ItsMe-Daniel/static/js/main.7d01a14c.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
     "static/media/tempgallventure.png": "/ItsMe-Daniel/static/media/tempgallventure.48bc14d3cd08c5a7d865.png",
     "static/media/coffe_shop.png": "/ItsMe-Daniel/static/media/coffe_shop.e87f01a4fad3ef699ea3.png",
+    "static/media/reva.png": "/ItsMe-Daniel/static/media/reva.52c14033af37f2efb826.png",
     "static/media/ourlib.png": "/ItsMe-Daniel/static/media/ourlib.96eccfabfd7919ee8b0f.png",
     "static/media/aizone.png": "/ItsMe-Daniel/static/media/aizone.8400e5fde6e75b61761a.png",
     "static/media/WilinkInternational.png": "/ItsMe-Daniel/static/media/WilinkInternational.36e6c14641cfaea6fb93.png",
@@ -21,6 +22,7 @@
     "static/media/Me.jpg": "/ItsMe-Daniel/static/media/Me.0e6ab4c6ba1ebef5630b.jpg",
     "static/media/teamspector.png": "/ItsMe-Daniel/static/media/teamspector.5dd4636dd86c9123a96f.png",
     "static/media/Shopaholic.png": "/ItsMe-Daniel/static/media/Shopaholic.a3be09d6c9531120d995.png",
+    "static/media/shooter.jpg": "/ItsMe-Daniel/static/media/shooter.9a9394a997f1f212781d.jpg",
     "static/media/abeliago.png": "/ItsMe-Daniel/static/media/abeliago.100741a97e9a5689f7a0.png",
     "static/media/sebastian.png": "/ItsMe-Daniel/static/media/sebastian.9b0b71e4b1a7dff37a11.png",
     "static/media/uxie.png": "/ItsMe-Daniel/static/media/uxie.f6de2f642412add418b0.png",
@@ -35,12 +37,12 @@
     "static/media/D.png": "/ItsMe-Daniel/static/media/D.09088e603dc0414bbc68.png",
     "static/media/taskidoLog.png": "/ItsMe-Daniel/static/media/taskidoLog.eb82b9bb51980977095b.png",
     "index.html": "/ItsMe-Daniel/index.html",
-    "main.89435722.css.map": "/ItsMe-Daniel/static/css/main.89435722.css.map",
-    "main.0f536683.js.map": "/ItsMe-Daniel/static/js/main.0f536683.js.map",
+    "main.be79b632.css.map": "/ItsMe-Daniel/static/css/main.be79b632.css.map",
+    "main.7d01a14c.js.map": "/ItsMe-Daniel/static/js/main.7d01a14c.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89435722.css",
-    "static/js/main.0f536683.js"
+    "static/css/main.be79b632.css",
+    "static/js/main.7d01a14c.js"
   ]
 }
