@@ -29,6 +29,10 @@ import tempgallventure from '../images/tempgallventure.png'
 import teamspector from '../images/teamspector.png'
 import reva from '../images/reva.png'
 import shooter from '../images/shooter.jpg'
+import tonette2 from '../images/tonette2.png'
+import whois from '../images/whois.png'
+import tempimg from '../images/tempimg.png'
+
 
 import "../css/main-style.css";
 
@@ -131,8 +135,92 @@ const Work = () => {
          <div className={`my-projectCont ${view === "grid" ? "sec_lay" : ""}`}>
 
 
+           {/* project 1 */}
+            <div className=" myproject fr_end">
+               <div className="ImgContainer">
+                  <img src={tonette2} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://tonettefloralconceptsandevents.com" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
+
+               <div className="proj-details">
+                  <small>Latest Project</small>
+                  <h1>Tonette Floral Concepts & Events</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        Tonette Revalde Solatorio is a stylist with over 25 years of experience in the events industry. <span className="highlights">Wordpress</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://tonettefloralconceptsandevents.com" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
             {/* project 1 */}
             <div className=" myproject reverse fr_end">
+               <div className="ImgContainer">
+                  <img src={whois} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://darkorchid-wolverine-386271.hostingersite.com/dev-tempimg/" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
+
+               <div className="proj-details">
+                  <small>Latest Project</small>
+                  <h1>TempImg | Image Scrapper</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        This tool allows you to scan all images used on a website and easily download or export them in one place. It helps developers and designers quickly extract assets for analysis, backups, or reuse without manually inspecting each page. <span className="highlights">Html Css Javascript Query PHP</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://darkorchid-wolverine-386271.hostingersite.com/dev-tempimg/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
+               <div className="proj-details">
+                  <small>Latest Project</small>
+                  <h1>WHOIS</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        A WHOIS Lookup Tool allows you to instantly retrieve important details about any domain name, including ownership information, registration and expiration dates, registrar, and name servers. It helps users check domain availability, verify website legitimacy, and discover when a domain may become available again. <span className="highlights">Html Css Javascript Query PHP</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://darkorchid-wolverine-386271.hostingersite.com/whois/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
+
+            {/* project 1 */}
+            <div className=" myproject fr_end">
                <div className="ImgContainer">
                   <img src={reva} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
