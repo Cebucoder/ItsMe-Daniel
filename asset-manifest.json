@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/ItsMe-Daniel/static/css/main.b3aaf2c4.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.1c24cf8c.js",
+    "main.js": "/ItsMe-Daniel/static/js/main.fa65c0ae.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
     "static/media/tempgallventure.png": "/ItsMe-Daniel/static/media/tempgallventure.48bc14d3cd08c5a7d865.png",
     "static/media/coffe_shop.png": "/ItsMe-Daniel/static/media/coffe_shop.e87f01a4fad3ef699ea3.png",
+    "static/media/tonette2.png": "/ItsMe-Daniel/static/media/tonette2.53624b54661a5fe4d112.png",
     "static/media/reva.png": "/ItsMe-Daniel/static/media/reva.52c14033af37f2efb826.png",
+    "static/media/whois.png": "/ItsMe-Daniel/static/media/whois.08f041e8639f22ca6fa4.png",
     "static/media/ourlib.png": "/ItsMe-Daniel/static/media/ourlib.96eccfabfd7919ee8b0f.png",
     "static/media/aizone.png": "/ItsMe-Daniel/static/media/aizone.8400e5fde6e75b61761a.png",
     "static/media/WilinkInternational.png": "/ItsMe-Daniel/static/media/WilinkInternational.36e6c14641cfaea6fb93.png",
     "static/media/CraveSolutions.png": "/ItsMe-Daniel/static/media/CraveSolutions.e1d32d1463e49f6b17a3.png",
+    "static/media/tempimg.png": "/ItsMe-Daniel/static/media/tempimg.71ae7327c7ea1b76e3b2.png",
     "static/media/evspresso.png": "/ItsMe-Daniel/static/media/evspresso.5cbba697e60992c69784.png",
     "static/media/glowingB.png": "/ItsMe-Daniel/static/media/glowingB.a0aadd6ce05a5ee205e8.png",
     "static/media/cebutravel.png": "/ItsMe-Daniel/static/media/cebutravel.4094cc1ad4483afc660f.png",
@@ -38,11 +41,11 @@
     "static/media/taskidoLog.png": "/ItsMe-Daniel/static/media/taskidoLog.eb82b9bb51980977095b.png",
     "index.html": "/ItsMe-Daniel/index.html",
     "main.b3aaf2c4.css.map": "/ItsMe-Daniel/static/css/main.b3aaf2c4.css.map",
-    "main.1c24cf8c.js.map": "/ItsMe-Daniel/static/js/main.1c24cf8c.js.map",
+    "main.fa65c0ae.js.map": "/ItsMe-Daniel/static/js/main.fa65c0ae.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3aaf2c4.css",
-    "static/js/main.1c24cf8c.js"
+    "static/js/main.fa65c0ae.js"
   ]
 }
