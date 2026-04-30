@@ -167,14 +167,15 @@ const Work = () => {
             {/* <project 1 */}
 
             {/* project 1 */}
-            <div className=" myproject reverse fr_end">
+            <div className=" myproject reverse tls">
                <div className="ImgContainer">
-                  <img src={whois} alt="cebucoder project" />
+                  <img src={tempimg} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
                      <a href="https://darkorchid-wolverine-386271.hostingersite.com/dev-tempimg/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
+               
 
                <div className="proj-details">
                   <small>Latest Project</small>
@@ -196,6 +197,15 @@ const Work = () => {
                </div>
             </div>
             {/* <project 1 */}
+
+            <div className=" myproject tls">
+               <div className="ImgContainer">
+                  <img src={whois} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://darkorchid-wolverine-386271.hostingersite.com/dev-tempimg/" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
 
                <div className="proj-details">
                   <small>Latest Project</small>
@@ -220,7 +230,7 @@ const Work = () => {
 
 
             {/* project 1 */}
-            <div className=" myproject fr_end">
+            <div className=" myproject fr_end reverse">
                <div className="ImgContainer">
                   <img src={reva} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
