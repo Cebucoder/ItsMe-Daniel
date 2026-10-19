@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/ItsMe-Daniel/static/css/main.b3aaf2c4.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.fa65c0ae.js",
+    "main.css": "/ItsMe-Daniel/static/css/main.0e73b23e.css",
+    "main.js": "/ItsMe-Daniel/static/js/main.ebca9079.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
     "static/media/tempgallventure.png": "/ItsMe-Daniel/static/media/tempgallventure.48bc14d3cd08c5a7d865.png",
     "static/media/coffe_shop.png": "/ItsMe-Daniel/static/media/coffe_shop.e87f01a4fad3ef699ea3.png",
     "static/media/tonette2.png": "/ItsMe-Daniel/static/media/tonette2.53624b54661a5fe4d112.png",
     "static/media/reva.png": "/ItsMe-Daniel/static/media/reva.52c14033af37f2efb826.png",
     "static/media/whois.png": "/ItsMe-Daniel/static/media/whois.08f041e8639f22ca6fa4.png",
+    "static/media/marajc.png": "/ItsMe-Daniel/static/media/marajc.d8dce0410e796004358d.png",
     "static/media/ourlib.png": "/ItsMe-Daniel/static/media/ourlib.96eccfabfd7919ee8b0f.png",
     "static/media/aizone.png": "/ItsMe-Daniel/static/media/aizone.8400e5fde6e75b61761a.png",
     "static/media/WilinkInternational.png": "/ItsMe-Daniel/static/media/WilinkInternational.36e6c14641cfaea6fb93.png",
@@ -22,16 +23,17 @@
     "static/media/clovers.png": "/ItsMe-Daniel/static/media/clovers.faeb748523df38ee5c84.png",
     "static/media/affooodable.png": "/ItsMe-Daniel/static/media/affooodable.1da6dc9e6193789f7881.png",
     "static/media/furniture.png": "/ItsMe-Daniel/static/media/furniture.78d8d550802613713f91.png",
-    "static/media/Me.jpg": "/ItsMe-Daniel/static/media/Me.0e6ab4c6ba1ebef5630b.jpg",
     "static/media/teamspector.png": "/ItsMe-Daniel/static/media/teamspector.5dd4636dd86c9123a96f.png",
     "static/media/Shopaholic.png": "/ItsMe-Daniel/static/media/Shopaholic.a3be09d6c9531120d995.png",
     "static/media/shooter.jpg": "/ItsMe-Daniel/static/media/shooter.9a9394a997f1f212781d.jpg",
     "static/media/abeliago.png": "/ItsMe-Daniel/static/media/abeliago.100741a97e9a5689f7a0.png",
+    "static/media/templateventure.png": "/ItsMe-Daniel/static/media/templateventure.02f4ca104807c90082d8.png",
     "static/media/sebastian.png": "/ItsMe-Daniel/static/media/sebastian.9b0b71e4b1a7dff37a11.png",
     "static/media/uxie.png": "/ItsMe-Daniel/static/media/uxie.f6de2f642412add418b0.png",
     "static/media/cssprefix.png": "/ItsMe-Daniel/static/media/cssprefix.5e14e1eb40de289fb20b.png",
     "static/media/creative.png": "/ItsMe-Daniel/static/media/creative.591cd6a7ed9354d191a1.png",
     "static/media/shadowcrafts.png": "/ItsMe-Daniel/static/media/shadowcrafts.e7d6b84bb304c84258e0.png",
+    "static/media/Me.jpg": "/ItsMe-Daniel/static/media/Me.5488fcab8b66a7a085e8.jpg",
     "static/media/capstonemaestro.png": "/ItsMe-Daniel/static/media/capstonemaestro.c70fb61afbb3ab8a0fad.png",
     "static/media/LMS.png": "/ItsMe-Daniel/static/media/LMS.487a0277877bdb800697.png",
     "static/media/rockps.png": "/ItsMe-Daniel/static/media/rockps.49241a1d19544223f62a.png",
@@ -40,12 +42,12 @@
     "static/media/codit.png": "/ItsMe-Daniel/static/media/codit.1a64bdb7d1bee32eb1af.png",
     "static/media/taskidoLog.png": "/ItsMe-Daniel/static/media/taskidoLog.eb82b9bb51980977095b.png",
     "index.html": "/ItsMe-Daniel/index.html",
-    "main.b3aaf2c4.css.map": "/ItsMe-Daniel/static/css/main.b3aaf2c4.css.map",
-    "main.fa65c0ae.js.map": "/ItsMe-Daniel/static/js/main.fa65c0ae.js.map",
+    "main.0e73b23e.css.map": "/ItsMe-Daniel/static/css/main.0e73b23e.css.map",
+    "main.ebca9079.js.map": "/ItsMe-Daniel/static/js/main.ebca9079.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3aaf2c4.css",
-    "static/js/main.fa65c0ae.js"
+    "static/css/main.0e73b23e.css",
+    "static/js/main.ebca9079.js"
   ]
 }
