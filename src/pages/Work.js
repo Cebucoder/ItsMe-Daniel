@@ -32,6 +32,9 @@ import shooter from '../images/shooter.jpg'
 import tonette2 from '../images/tonette2.png'
 import whois from '../images/whois.png'
 import tempimg from '../images/tempimg.png'
+import marajc from '../images/marajc.png'
+import templateventure from '../images/templateventure.png'
+
 
 
 import "../css/main-style.css";
@@ -133,7 +136,67 @@ const Work = () => {
 
          {/* my project container */}
          <div className={`my-projectCont ${view === "grid" ? "sec_lay" : ""}`}>
+           {/* project 1 */}
+            <div className=" myproject fr_end">
+               <div className="ImgContainer">
+                  <img src={marajc} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://marajcrealty.com/" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
 
+               <div className="proj-details">
+                  <small>CLient</small>
+                  <h1>MARAJC Realty</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        MARAJC Realty is a trusted real estate marketing company specializing in the sale of premier horizontal and vertical developments across the Philippines. <span className="highlights">Wordpress</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://marajcrealty.com/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
+            {/* project 1 */}
+            <div className=" myproject reverse fr_end">
+               <div className="ImgContainer">
+                  <img src={templateventure} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://templateventure.com/" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
+
+               <div className="proj-details">
+                  <small>CLient</small>
+                  <h1>Template Venture</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        Template Venture is a web development agency that builds modern, responsive websites to help businesses grow online. <span className="highlights">Wordpress</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://templateventure.com/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
 
            {/* project 1 */}
             <div className=" myproject fr_end">
@@ -146,7 +209,7 @@ const Work = () => {
                </div>
 
                <div className="proj-details">
-                  <small>Latest Project</small>
+                  <small>CLient</small>
                   <h1>Tonette Floral Concepts & Events</h1>
                   <div className="hiding-later">
                      {/* details */}
@@ -172,7 +235,7 @@ const Work = () => {
                   <img src={tempimg} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://darkorchid-wolverine-386271.hostingersite.com/dev-tempimg/" target='blank'><button>Live Preview</button></a>
+                     <a href="https://templateventure.com/dev-tempimg/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
                
@@ -190,7 +253,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://darkorchid-wolverine-386271.hostingersite.com/dev-tempimg/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        <a href="https://templateventure.com/dev-tempimg/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                         {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
                      </span>
                   </div>
@@ -203,7 +266,7 @@ const Work = () => {
                   <img src={whois} alt="cebucoder project" />
                   <div className="imgoverlay"></div>
                   <div className="live-demo">
-                     <a href="https://darkorchid-wolverine-386271.hostingersite.com/dev-tempimg/" target='blank'><button>Live Preview</button></a>
+                     <a href="https://templateventure.com/dev-tempimg/" target='blank'><button>Live Preview</button></a>
                   </div>
                </div>
 
@@ -220,7 +283,7 @@ const Work = () => {
                      </span>
 
                      <span className="source-code-icon">
-                        <a href="https://darkorchid-wolverine-386271.hostingersite.com/whois/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        <a href="https://templateventure.com/whois/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
                         {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
                      </span>
                   </div>

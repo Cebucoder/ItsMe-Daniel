@@ -1,5 +1,32 @@
 import Me from '../images/Me.jpg';
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaBootstrap,
+  FaReact,
+  FaGitAlt,
+  FaPhp,
+  FaWordpress,
+} from "react-icons/fa";
 
+import {
+  SiJquery,
+  SiElementor,
+} from "react-icons/si";
+
+const languages = [
+  { name: "HTML", icon: <FaHtml5 />, className: "html" },
+  { name: "CSS", icon: <FaCss3Alt />, className: "css" },
+  { name: "jQuery", icon: <SiJquery />, className: "jquery" },
+  { name: "JavaScript", icon: <FaJs />, className: "javascript" },
+  { name: "Bootstrap", icon: <FaBootstrap />, className: "bootstrap" },
+  { name: "React", icon: <FaReact />, className: "react" },
+  { name: "Git", icon: <FaGitAlt />, className: "git" },
+  { name: "PHP", icon: <FaPhp />, className: "php" },
+  { name: "WordPress", icon: <FaWordpress />, className: "wordpress" },
+  { name: "Elementor", icon: <SiElementor />, className: "elementor" },
+];
 
 const About = () => {
     return (
@@ -17,15 +44,15 @@ const About = () => {
             {/* <!-- about-mother-cont --> */}
             <div className="about-mother-cont">
                 <div className="about-me">
-                    <p>Hello! My name is Daniel, and I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try editing custom logos and invitations—this led me to start learning HTML & CSS!</p>
+                    <p>Hello! I'm a Front-End Web Developer with 4+ years of experience building modern, responsive, and high-performing websites. I specialize in WordPress development, custom website design, website optimization, debugging, and website security, including malware detection and removal.</p>
 
-                    <p>Fast-forward to today, my main focus is building accessible and inclusive websites, products, and digital experiences to fulfill client needs.</p>
+                    <p>I help businesses improve their online presence by delivering reliable web solutions, resolving technical issues, and maintaining secure, functional, and user-friendly websites. From custom development to troubleshooting and security cleanup, I focus on providing practical solutions that meet client needs.</p>
 
-                    <p> I also recently created some social media platforms where I share my knowledge about website building, such as <a className="about-line" href="https://github.com/Cebucoder">Github </a>and <a className="about-line" href="https://youtube.com/@cebucoder">Youtube</a>. </p>
+                    <p> Explore my projects on <a className="about-line" href="https://github.com/Cebucoder">Github </a> and connect with me <a className="about-line" href="https://www.linkedin.com/in/daniel-abellana/">Linkedin</a>. </p>
 
                     <p> Here are a few basic technologies I’ve been learning recently:</p>
 
-                    <div className="mylang">
+                    {/* <div className="mylang">
                         <span><div className="arrow"></div> Html</span>
                         <span><div className="arrow"></div> Css</span>
                         <span><div className="arrow"></div> Jquery</span>
@@ -33,11 +60,21 @@ const About = () => {
                         <span><div className="arrow"></div> Bootstrap</span>
                         <span><div className="arrow"></div> React</span>
                         <span><div className="arrow"></div> Git</span>
-                        {/* <span><div className="arrow"></div> Laravel</span> */}
+                        <span><div className="arrow"></div> Laravel</span>
                         <span><div className="arrow"></div> PHP</span>
                         <span><div className="arrow"></div> WordPress</span>
                         <span><div className="arrow"></div> Elementor</span>
-                    </div>
+                    </div> */}
+                    <div className="mylang">
+                        {languages.map((language) => (
+                            <span className="lang-item" key={language.name}>
+                            <span className={`lang-icon ${language.className}`}>
+                                {language.icon}
+                            </span>
+                            {language.name}
+                            </span>
+                        ))}
+                        </div>
 
                 </div>
                 <div className="myimage">
