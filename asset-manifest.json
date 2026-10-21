@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ItsMe-Daniel/static/css/main.e81e3e93.css",
-    "main.js": "/ItsMe-Daniel/static/js/main.7f9c07b5.js",
+    "main.js": "/ItsMe-Daniel/static/js/main.ca1ed635.js",
     "static/js/787.1f11dfe9.chunk.js": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js",
     "static/media/tempgallventure.png": "/ItsMe-Daniel/static/media/tempgallventure.48bc14d3cd08c5a7d865.png",
     "static/media/coffe_shop.png": "/ItsMe-Daniel/static/media/coffe_shop.e87f01a4fad3ef699ea3.png",
@@ -43,11 +43,11 @@
     "static/media/taskidoLog.png": "/ItsMe-Daniel/static/media/taskidoLog.eb82b9bb51980977095b.png",
     "index.html": "/ItsMe-Daniel/index.html",
     "main.e81e3e93.css.map": "/ItsMe-Daniel/static/css/main.e81e3e93.css.map",
-    "main.7f9c07b5.js.map": "/ItsMe-Daniel/static/js/main.7f9c07b5.js.map",
+    "main.ca1ed635.js.map": "/ItsMe-Daniel/static/js/main.ca1ed635.js.map",
     "787.1f11dfe9.chunk.js.map": "/ItsMe-Daniel/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e81e3e93.css",
-    "static/js/main.7f9c07b5.js"
+    "static/js/main.ca1ed635.js"
   ]
 }
