@@ -48,7 +48,7 @@ const Home = () => {
 
             <div className="man_btns"> 
                 <Link to="/About"><button className="explore">Explore more!</button></Link> 
-                <Link to="https://cebucoder.github.io/cebucoderv2/"><button className="explore">Cebucoder V2</button></Link> </div>
+                <a href="https://cebucoder.github.io/cebucoderv2/"><button className="explore">Cebucoder V2</button></a> </div>
             </div>
 
             {/* <!-- side social media icon --> */}
