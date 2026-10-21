@@ -46,8 +46,9 @@ const Home = () => {
 
                 <p>"I’m a web developer,I love making goods staff and I currently focused on building a good <span className="upstatement">website.</span></p>
 
-                <Link to="/About"><button className="explore">Explore more!</button></Link>
-
+            <div className="man_btns"> 
+                <Link to="/About"><button className="explore">Explore more!</button></Link> 
+                <Link to="https://cebucoder.github.io/cebucoderv2/"><button className="explore">Cebucoder V2</button></Link> </div>
             </div>
 
             {/* <!-- side social media icon --> */}

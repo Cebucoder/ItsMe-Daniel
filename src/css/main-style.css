@@ -352,9 +352,11 @@ body {
 	border-radius: 5px;
 	font-size: 15px;
 	font-family: monospace;
-	margin-top: 50px;
 	transition: all 0.3s;
 }
+
+.man_btns{display: flex; gap: 10px; flex-wrap: wrap; margin-top: 40px;}
+.man_btns{display: flex; gap: 10px; flex-wrap: wrap;}
 
 .main-hero .explore:hover {
 	background: #64ffda17;
