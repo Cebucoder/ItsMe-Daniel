@@ -158,6 +158,7 @@ const Work = () => {
 
                      <span className="ide-use">
                         <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">Chat GPT</a></small>
                      </span>
 
                      <span className="source-code-icon">
@@ -181,12 +182,12 @@ const Work = () => {
                </div>
 
                <div className="proj-details">
-                  <small>CLient</small>
+                  <small>Client</small>
                   <h1>MARAJC Realty</h1>
                   <div className="hiding-later">
                      {/* details */}
                      <p>
-                        MARAJC Realty is a trusted real estate marketing company specializing in the sale of premier horizontal and vertical developments across the Philippines. <span className="highlights">Wordpress</span></p>
+                        MARAJC Realty is a trusted real estate marketing company specializing in the sale of premier horizontal and vertical developments across the Philippines. <span className="highlights">Wordpress| Elementor</span></p>
 
                      <span className="ide-use">
                         <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
@@ -212,7 +213,7 @@ const Work = () => {
                </div>
 
                <div className="proj-details">
-                  <small>CLient</small>
+                  <small>Client</small>
                   <h1>Template Venture</h1>
                   <div className="hiding-later">
                      {/* details */}
@@ -243,7 +244,7 @@ const Work = () => {
                </div>
 
                <div className="proj-details">
-                  <small>CLient</small>
+                  <small>Client</small>
                   <h1>Tonette Floral Concepts & Events</h1>
                   <div className="hiding-later">
                      {/* details */}
@@ -342,7 +343,7 @@ const Work = () => {
                   <div className="hiding-later">
                      {/* details */}
                      <p>
-                        REVA Operations & Strategy Solutions is a client project, showcasing a clean and professional website built to highlight their services in operations and strategic support. The site focuses on clarity, structure, and user-friendly design. <span className="highlights">Html Css Javascript Query etc</span></p>
+                        REVA Operations & Strategy Solutions is a Client project, showcasing a clean and professional website built to highlight their services in operations and strategic support. The site focuses on clarity, structure, and user-friendly design. <span className="highlights">Html Css Javascript Query etc</span></p>
 
                      <span className="ide-use">
                         <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
@@ -1209,7 +1210,7 @@ const Work = () => {
                   <h1>Tonette Events</h1>
                   {/* details */}
                   <p>
-                     Tonette Event's website was  a personal website that giving information to client accoriding to thier services.
+                     Tonette Event's website was  a personal website that giving information to Client accoriding to thier services.
                      <br /><br />
                      Tonette Website was build by <span className="highlights">Html Css Javacscript and React</span></p>
 
