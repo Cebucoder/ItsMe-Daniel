@@ -34,6 +34,7 @@ import whois from '../images/whois.png'
 import tempimg from '../images/tempimg.png'
 import marajc from '../images/marajc.png'
 import templateventure from '../images/templateventure.png'
+import ipIntell from '../images/ipIntell.png'
 
 
 
@@ -136,6 +137,39 @@ const Work = () => {
 
          {/* my project container */}
          <div className={`my-projectCont ${view === "grid" ? "sec_lay" : ""}`}>
+
+           {/* project 1 */}
+            <div className=" myproject tls reverse">
+               <div className="ImgContainer">
+                  <img src={ipIntell} alt="cebucoder project" />
+                  <div className="imgoverlay"></div>
+                  <div className="live-demo">
+                     <a href="https://lush-palegoldenrod-beaver-80.hostingersite.com/" target='blank'><button>Live Preview</button></a>
+                  </div>
+               </div>
+
+               <div className="proj-details">
+                  <small>Tools</small>
+                  <h1>IP Domain Intelligence</h1>
+                  <div className="hiding-later">
+                     {/* details */}
+                     <p>
+                        IP & Domain Intelligence is a tool that scans domains and IP addresses to identify their hosting information and check website health, including SSL certificate validity, security status, and potential critical errors to ensure the website is active, secure, and functioning properly. <span className="highlights">PHP</span></p>
+
+                     <span className="ide-use">
+                        <small><a href="#" onClick={(e) => e.preventDefault()} className="about-line">VS Code</a></small>
+                     </span>
+
+                     <span className="source-code-icon">
+                        <a href="https://lush-palegoldenrod-beaver-80.hostingersite.com/" target='blank'><ion-icon name="open-outline" title="Live Preview"></ion-icon></a>
+                        {/* <a href="javasx" target='blank'><ion-icon name="code-download-outline"></ion-icon></a> */}
+                     </span>
+                  </div>
+               </div>
+            </div>
+            {/* <project 1 */}
+
+
            {/* project 1 */}
             <div className=" myproject fr_end">
                <div className="ImgContainer">
