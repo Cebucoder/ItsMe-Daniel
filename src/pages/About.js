@@ -8,6 +8,12 @@ import {
   FaGitAlt,
   FaPhp,
   FaWordpress,
+  SiOpenai,
+  SiClaude,
+  SiGooglegemini,
+    SiCpanel,
+  SiFilezilla,
+  SiHostinger
 } from "react-icons/fa";
 
 import {
@@ -26,6 +32,12 @@ const languages = [
   { name: "PHP", icon: <FaPhp />, className: "php" },
   { name: "WordPress", icon: <FaWordpress />, className: "wordpress" },
   { name: "Elementor", icon: <SiElementor />, className: "elementor" },
+  { name: "ChatGPT", icon: <SiOpenai />, className: "chatgpt" },
+  { name: "Claude", icon: <SiClaude />, className: "claude" },
+  { name: "Gemini", icon: <SiGooglegemini />, className: "gemini" },
+  { name: "cPanel", icon: <SiCpanel />, className: "cpanel" },
+{ name: "FTP", icon: <SiFilezilla />, className: "ftp" },
+{ name: "Hostinger", icon: <SiHostinger />, className: "hostinger" },
 ];
 
 const About = () => {
