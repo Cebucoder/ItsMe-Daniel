@@ -8,18 +8,23 @@ import {
   FaGitAlt,
   FaPhp,
   FaWordpress,
-  SiOpenai,
-  SiClaude,
-  SiGooglegemini,
-    SiCpanel,
-  SiFilezilla,
-  SiHostinger
+  FaCpanel 
+
 } from "react-icons/fa";
 
 import {
   SiJquery,
   SiElementor,
+  SiGooglegemini ,
+  SiFilezilla ,
+  SiHostinger
 } from "react-icons/si";
+
+import { 
+    BsOpenai,
+    BsClaude 
+ } 
+from "react-icons/bs";
 
 const languages = [
   { name: "HTML", icon: <FaHtml5 />, className: "html" },
@@ -32,10 +37,10 @@ const languages = [
   { name: "PHP", icon: <FaPhp />, className: "php" },
   { name: "WordPress", icon: <FaWordpress />, className: "wordpress" },
   { name: "Elementor", icon: <SiElementor />, className: "elementor" },
-  { name: "ChatGPT", icon: <SiOpenai />, className: "chatgpt" },
-  { name: "Claude", icon: <SiClaude />, className: "claude" },
-  { name: "Gemini", icon: <SiGooglegemini />, className: "gemini" },
-  { name: "cPanel", icon: <SiCpanel />, className: "cpanel" },
+  { name: "ChatGPT", icon: <BsOpenai />, className: "chatgpt" },
+  { name: "Claude", icon: <BsClaude  />, className: "claude" },
+  { name: "Gemini", icon: <SiGooglegemini  />, className: "gemini" },
+  { name: "cPanel", icon: <FaCpanel  />, className: "cpanel" },
 { name: "FTP", icon: <SiFilezilla />, className: "ftp" },
 { name: "Hostinger", icon: <SiHostinger />, className: "hostinger" },
 ];
